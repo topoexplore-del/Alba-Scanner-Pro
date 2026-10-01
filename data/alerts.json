@@ -1,7 +1,576 @@
 {
- "checked_at": null,
- "confirmed": 0,
- "signals": [],
- "watchlist": [],
- "note": "Alba recién instalado: la primera actualización diaria generará las alertas."
+ "checked_at": "2026-10-01 18:42:18 (Hora Colombia)",
+ "regime": {
+  "regime": "BULL",
+  "icon": "🟢",
+  "advice": "Mercado alcista — señales LONG operan con criterios normales.",
+  "spy_price": 763.99,
+  "spy_sma200": 716.56,
+  "spy_vs_sma200_pct": 6.62,
+  "drawdown_52w_pct": -1.54,
+  "realized_vol_20d": 10.7
+ },
+ "confirmed": 5,
+ "session_ref": "2026-10-01",
+ "reglas": {
+  "bracket": "ALBA 2/4",
+  "max_nuevas": 5,
+  "max_sector": 2,
+  "riesgo_pct": 1.0,
+  "setups": [
+   "RETROCESO",
+   "RUPTURA",
+   "IMPULSO"
+  ]
+ },
+ "signals": [
+  {
+   "ticker": "APA",
+   "name": "APA Corporation",
+   "sector": "Energy",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 94,
+   "prob": 33.5,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-08-04 → 2026-10-01)",
+    "n": 10327,
+    "p_tp": 33.5,
+    "p_tp_ic95": [
+     32.6,
+     34.4
+    ],
+    "acierto": 38.2,
+    "ret_medio": 0.298,
+    "ret_medio_oos": 0.301,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false
+   },
+   "sizing": {
+    "stop_pct": 7.18,
+    "objetivo_pct": 14.34,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 13.9,
+    "acciones_por_10k": 32
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 80,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Señal máxima",
+    "markov": 3,
+    "markov_lab": "STRONG",
+    "dif_ema": -25.24,
+    "calidad": "EXCELENTE",
+    "upside": 19.7
+   },
+   "buffett": 95,
+   "mos": 6.6,
+   "rs_rank": 96,
+   "asof": "2026-10-01",
+   "price": 43.34,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 43.65,
+   "zones": {
+    "entry": 42.88,
+    "sl": 39.8,
+    "tp": 49.03,
+    "tp1": null,
+    "tp2": 49.03,
+    "atr": 1.5374
+   }
+  },
+  {
+   "ticker": "FAST",
+   "name": "Fastenal Company",
+   "sector": "Industrials",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 74,
+   "prob": 33.5,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-08-04 → 2026-10-01)",
+    "n": 10327,
+    "p_tp": 33.5,
+    "p_tp_ic95": [
+     32.6,
+     34.4
+    ],
+    "acierto": 38.2,
+    "ret_medio": 0.298,
+    "ret_medio_oos": 0.301,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false
+   },
+   "sizing": {
+    "stop_pct": 3.93,
+    "objetivo_pct": 7.87,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 25.5,
+    "acciones_por_10k": 51
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 95,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Espera",
+    "markov": 2,
+    "markov_lab": "BULLISH",
+    "dif_ema": -8.41,
+    "calidad": "BUENO",
+    "upside": 2.7
+   },
+   "buffett": 85,
+   "mos": -80.8,
+   "rs_rank": 76,
+   "asof": "2026-10-01",
+   "price": 50.22,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 50.42,
+   "zones": {
+    "entry": 49.93,
+    "sl": 47.97,
+    "tp": 53.86,
+    "tp1": null,
+    "tp2": 53.86,
+    "atr": 0.9818
+   }
+  },
+  {
+   "ticker": "CVX",
+   "name": "Chevron Corporation",
+   "sector": "Energy",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 71,
+   "prob": 33.5,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-08-04 → 2026-10-01)",
+    "n": 10327,
+    "p_tp": 33.5,
+    "p_tp_ic95": [
+     32.6,
+     34.4
+    ],
+    "acierto": 38.2,
+    "ret_medio": 0.298,
+    "ret_medio_oos": 0.301,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false
+   },
+   "sizing": {
+    "stop_pct": 4.06,
+    "objetivo_pct": 8.11,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 24.7,
+    "acciones_por_10k": 11
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 100,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Espera",
+    "markov": 3,
+    "markov_lab": "STRONG",
+    "dif_ema": -13.49,
+    "calidad": "BUENO",
+    "upside": 6.0
+   },
+   "buffett": 65,
+   "mos": -27.4,
+   "rs_rank": 94,
+   "asof": "2026-10-01",
+   "price": 207.1,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 207.94,
+   "zones": {
+    "entry": 205.85,
+    "sl": 197.5,
+    "tp": 222.55,
+    "tp1": null,
+    "tp2": 222.55,
+    "atr": 4.1758
+   }
+  },
+  {
+   "ticker": "SMCI",
+   "name": "Super Micro Computer, ",
+   "sector": "Technology",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 96,
+   "prob": 33.5,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-08-04 → 2026-10-01)",
+    "n": 10327,
+    "p_tp": 33.5,
+    "p_tp_ic95": [
+     32.6,
+     34.4
+    ],
+    "acierto": 38.2,
+    "ret_medio": 0.298,
+    "ret_medio_oos": 0.301,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false
+   },
+   "sizing": {
+    "stop_pct": 10.96,
+    "objetivo_pct": 21.92,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 9.1,
+    "acciones_por_10k": 22
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 50,
+    "earliness_lab": "MADURO",
+    "not_temprano": true,
+    "fase": "Acumulación",
+    "markov": 2,
+    "markov_lab": "BULLISH",
+    "dif_ema": -26.12,
+    "calidad": "EXCELENTE",
+    "upside": 19.7
+   },
+   "buffett": 55,
+   "mos": -19.3,
+   "rs_rank": 99,
+   "asof": "2026-10-01",
+   "price": 41.92,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 42.37,
+   "zones": {
+    "entry": 41.24,
+    "sl": 36.72,
+    "tp": 50.28,
+    "tp1": null,
+    "tp2": 50.28,
+    "atr": 2.2601
+   }
+  },
+  {
+   "ticker": "LQDT",
+   "name": "Liquidity Services, In",
+   "sector": "Consumer Cyclical",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 61,
+   "prob": 33.5,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-08-04 → 2026-10-01)",
+    "n": 10327,
+    "p_tp": 33.5,
+    "p_tp_ic95": [
+     32.6,
+     34.4
+    ],
+    "acierto": 38.2,
+    "ret_medio": 0.298,
+    "ret_medio_oos": 0.301,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false
+   },
+   "sizing": {
+    "stop_pct": 5.38,
+    "objetivo_pct": 10.76,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 18.6,
+    "acciones_por_10k": 42
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 65,
+    "earliness_lab": "FRESCO",
+    "not_temprano": true,
+    "fase": "Acumulación",
+    "markov": 2,
+    "markov_lab": "BULLISH",
+    "dif_ema": -20.14,
+    "calidad": "REGULAR",
+    "upside": 4.8
+   },
+   "buffett": 50,
+   "mos": -69.9,
+   "rs_rank": 90,
+   "asof": "2026-10-01",
+   "price": 43.64,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 43.87,
+   "zones": {
+    "entry": 43.29,
+    "sl": 40.96,
+    "tp": 47.95,
+    "tp1": null,
+    "tp2": 47.95,
+    "atr": 1.1662
+   }
+  }
+ ],
+ "watchlist": [
+  {
+   "ticker": "PBR",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: ya tiene una alerta abierta"
+   ]
+  },
+  {
+   "ticker": "AMG",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CRM",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "SHEL",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Energy"
+   ]
+  },
+  {
+   "ticker": "BP",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Energy"
+   ]
+  },
+  {
+   "ticker": "ETN",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "NOK",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "XLE",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 5 alertas nuevas por día"
+   ]
+  },
+  {
+   "ticker": "VLUE",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 5 alertas nuevas por día"
+   ]
+  },
+  {
+   "ticker": "DYNF",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 5 alertas nuevas por día"
+   ]
+  },
+  {
+   "ticker": "TEAM",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "GFLW",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 5 alertas nuevas por día"
+   ]
+  },
+  {
+   "ticker": "DUHP",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 5 alertas nuevas por día"
+   ]
+  },
+  {
+   "ticker": "SFLR",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 5 alertas nuevas por día"
+   ]
+  },
+  {
+   "ticker": "CNNE",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "USO",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 5 alertas nuevas por día"
+   ]
+  },
+  {
+   "ticker": "BMNR",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "DOCN",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "SU",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "QUAL",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "FSLY",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "DUOL",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "PDBC",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CRSP",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "FIVN",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  }
+ ],
+ "universo": {
+  "snapshot": 1131,
+  "listado_candidatos": 90,
+  "listado_setups": 352,
+  "listado_cobertura_pct": 100.0
+ }
 }
