@@ -1,0 +1,122 @@
+name: Alba — Actualización diaria (cierre + respaldo)
+
+on:
+  schedule:
+    # GitHub usa UTC y EEUU cambia de horario, por eso hay dos horarios de cierre.
+    # La compuerta (scripts/run_gate.py) deja correr solo el que corresponde.
+    - cron: '20 20 * * 1-5'   # 16:20 ET con horario de verano (EDT)
+    - cron: '20 21 * * 1-5'   # 16:20 ET con horario de invierno (EST)
+    # Respaldo: 06:17 / 07:17 ET del día siguiente. Solo corre si la
+    # actualización de la noche no quedó sana (velas vacías, caída de Yahoo…).
+    - cron: '17 11 * * 2-6'
+  workflow_dispatch:
+    inputs:
+      forzar:
+        description: "Publicar aunque la guarda de salud falle (escribe 'si' solo si sabes lo que haces)"
+        required: false
+        default: 'no'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: alba-data
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+
+      - name: ¿Toca correr?
+        id: gate
+        run: python scripts/run_gate.py
+        env:
+          TZ: America/New_York
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+
+      - name: Actualización completa (velas limpias + reparación + guarda de salud)
+        if: steps.gate.outputs.run == 'true'
+        run: python scripts/build_data.py --out-dir data ${{ github.event.inputs.forzar == 'si' && '--force-publish' || '' }}
+        env:
+          TZ: America/New_York
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+
+      - name: Escaneo del Listado completo (~11.500 símbolos) — COMBO + setups Alba
+        if: steps.gate.outputs.run == 'true'
+        run: python scripts/figand_scan.py
+        env:
+          TZ: America/New_York
+          FIGAND_BUDGET_MIN: '30'
+          FIGAND_INCLUDE_ETF: '1'
+
+      - name: Fundamentales solo para los candidatos del Listado con setup hoy
+        if: steps.gate.outputs.run == 'true'
+        run: python scripts/alba_listado.py
+        env:
+          TZ: America/New_York
+
+      - name: Seguimiento previo (cierra/actualiza las alertas abiertas antes de aplicar los topes)
+        if: steps.gate.outputs.run == 'true'
+        run: python scripts/track_alerts.py
+        env:
+          TZ: America/New_York
+
+      - name: Alertas Alba (solo con datos sanos)
+        if: steps.gate.outputs.run == 'true'
+        run: python scripts/check_alerts.py
+        env:
+          TZ: America/New_York
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Perfiles FIGAND
+        if: steps.gate.outputs.run == 'true'
+        run: python scripts/figand_stats.py
+
+      - name: Seguimiento (registra las alertas nuevas con las reglas del backtest)
+        if: steps.gate.outputs.run == 'true'
+        run: python scripts/track_alerts.py
+        env:
+          TZ: America/New_York
+
+      - name: Guarda de tamaño (límite GitHub 100MB)
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          FAIL=0
+          for f in data/*.json; do
+            [ -f "$f" ] || continue
+            SZ=$(stat -c%s "$f")
+            MB=$((SZ / 1048576))
+            echo "$f → ${MB}MB"
+            if [ "$SZ" -gt 94371840 ]; then
+              echo "::error::$f pesa ${MB}MB — supera el margen seguro (90MB). No se commitea."
+              FAIL=1
+            fi
+          done
+          exit $FAIL
+
+      - name: Commit
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "chore: Alba actualización $(date -u +%F) [automated]"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep 15
+          done
+          exit 1
