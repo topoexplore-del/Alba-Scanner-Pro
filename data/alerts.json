@@ -1,13 +1,13 @@
 {
- "checked_at": "2026-10-05 21:01:00 (Hora Colombia)",
+ "checked_at": "2026-10-05 21:38:01 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 774.94,
+  "spy_price": 774.83,
   "spy_sma200": 717.56,
-  "spy_vs_sma200_pct": 8.0,
-  "drawdown_52w_pct": -0.13,
+  "spy_vs_sma200_pct": 7.98,
+  "drawdown_52w_pct": -0.14,
   "realized_vol_20d": 10.5
  },
  "confirmed": 1,
@@ -36,15 +36,15 @@
    "stats": {
     "calibrada": true,
     "fuente": "backtest del protocolo (2022-08-08 → 2026-10-05)",
-    "n": 7567,
+    "n": 7569,
     "p_tp": 34.0,
     "p_tp_ic95": [
      32.9,
      35.1
     ],
-    "acierto": 38.1,
-    "ret_medio": 0.362,
-    "ret_medio_oos": 0.814,
+    "acierto": 38.2,
+    "ret_medio": 0.364,
+    "ret_medio_oos": 0.811,
     "dias_medios": 15.0,
     "le_gana_al_azar": false
    },
@@ -296,9 +296,9 @@
   }
  ],
  "universo": {
-  "snapshot": 1131,
+  "snapshot": 1132,
   "listado_candidatos": 65,
-  "listado_setups": 206,
+  "listado_setups": 207,
   "listado_cobertura_pct": 100.0
  }
 }
