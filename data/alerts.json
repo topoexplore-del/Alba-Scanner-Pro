@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-10-02 20:14:16 (Hora Colombia)",
+ "checked_at": "2026-10-05 21:01:00 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 769.67,
-  "spy_sma200": 717.04,
-  "spy_vs_sma200_pct": 7.34,
-  "drawdown_52w_pct": -0.81,
-  "realized_vol_20d": 10.4
+  "spy_price": 774.94,
+  "spy_sma200": 717.56,
+  "spy_vs_sma200_pct": 8.0,
+  "drawdown_52w_pct": -0.13,
+  "realized_vol_20d": 10.5
  },
- "confirmed": 5,
- "session_ref": "2026-10-02",
+ "confirmed": 1,
+ "session_ref": "2026-10-05",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -25,307 +25,35 @@
  },
  "signals": [
   {
-   "ticker": "QRVO",
-   "name": "Qorvo, Inc.",
-   "sector": "Technology",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
-   "composite": 66,
-   "prob": 33.6,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-04 → 2026-10-02)",
-    "n": 10210,
-    "p_tp": 33.6,
-    "p_tp_ic95": [
-     32.7,
-     34.5
-    ],
-    "acierto": 38.2,
-    "ret_medio": 0.292,
-    "ret_medio_oos": 0.28,
-    "dias_medios": 15.0,
-    "le_gana_al_azar": false
-   },
-   "sizing": {
-    "stop_pct": 7.48,
-    "objetivo_pct": 14.96,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 13.4,
-    "acciones_por_10k": 11
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 50,
-    "earliness_lab": "MADURO",
-    "not_temprano": true,
-    "fase": "Acumulación",
-    "markov": 2,
-    "markov_lab": "BULLISH",
-    "dif_ema": -26.01,
-    "calidad": "REGULAR",
-    "upside": 11.1
-   },
-   "buffett": 65,
-   "mos": -45.9,
-   "rs_rank": 96,
-   "asof": "2026-10-02",
-   "price": 114.12,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 114.97,
-   "zones": {
-    "entry": 112.86,
-    "sl": 104.42,
-    "tp": 129.74,
-    "tp1": null,
-    "tp2": 129.74,
-    "atr": 4.2198
-   }
-  },
-  {
-   "ticker": "FCX",
-   "name": "Freeport-McMoRan, Inc.",
+   "ticker": "NEU",
+   "name": "NewMarket Corp",
    "sector": "Basic Materials",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
-   "composite": 66,
-   "prob": 33.6,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-04 → 2026-10-02)",
-    "n": 10210,
-    "p_tp": 33.6,
-    "p_tp_ic95": [
-     32.7,
-     34.5
-    ],
-    "acierto": 38.2,
-    "ret_medio": 0.292,
-    "ret_medio_oos": 0.28,
-    "dias_medios": 15.0,
-    "le_gana_al_azar": false
-   },
-   "sizing": {
-    "stop_pct": 7.88,
-    "objetivo_pct": 15.77,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 12.7,
-    "acciones_por_10k": 17
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 90,
-    "earliness_lab": "TEMPRANO",
-    "not_temprano": false,
-    "fase": "Espera",
-    "markov": 2,
-    "markov_lab": "BULLISH",
-    "dif_ema": -13.2,
-    "calidad": "REGULAR",
-    "upside": 8.3
-   },
-   "buffett": 50,
-   "mos": -64.8,
-   "rs_rank": 92,
-   "asof": "2026-10-02",
-   "price": 72.04,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 72.6,
-   "zones": {
-    "entry": 71.2,
-    "sl": 65.59,
-    "tp": 82.43,
-    "tp1": null,
-    "tp2": 82.43,
-    "atr": 2.8073
-   }
-  },
-  {
-   "ticker": "ESGE",
-   "name": "iShares ESG Aware MSCI",
-   "sector": "ETF",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
-   "composite": 25,
-   "prob": 33.6,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-04 → 2026-10-02)",
-    "n": 10210,
-    "p_tp": 33.6,
-    "p_tp_ic95": [
-     32.7,
-     34.5
-    ],
-    "acierto": 38.2,
-    "ret_medio": 0.292,
-    "ret_medio_oos": 0.28,
-    "dias_medios": 15.0,
-    "le_gana_al_azar": false
-   },
-   "sizing": {
-    "stop_pct": 3.0,
-    "objetivo_pct": 5.96,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 33.3,
-    "acciones_por_10k": 60
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 95,
-    "earliness_lab": "TEMPRANO",
-    "not_temprano": false,
-    "fase": "Espera",
-    "markov": 2,
-    "markov_lab": "BULLISH",
-    "dif_ema": -8.53,
-    "calidad": "EXCELENTE",
-    "upside": 7.6
-   },
-   "buffett": 5,
-   "mos": null,
-   "rs_rank": 70,
-   "asof": "2026-10-02",
-   "price": 54.92,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 55.09,
-   "zones": {
-    "entry": 54.68,
-    "sl": 53.04,
-    "tp": 57.94,
-    "tp1": null,
-    "tp2": 57.94,
-    "atr": 0.8153
-   }
-  },
-  {
-   "ticker": "DFAE",
-   "name": "Dimensional Emerging C",
-   "sector": "ETF",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
-   "composite": 25,
-   "prob": 33.6,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-04 → 2026-10-02)",
-    "n": 10210,
-    "p_tp": 33.6,
-    "p_tp_ic95": [
-     32.7,
-     34.5
-    ],
-    "acierto": 38.2,
-    "ret_medio": 0.292,
-    "ret_medio_oos": 0.28,
-    "dias_medios": 15.0,
-    "le_gana_al_azar": false
-   },
-   "sizing": {
-    "stop_pct": 2.9,
-    "objetivo_pct": 5.79,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 34.5,
-    "acciones_por_10k": 86
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 95,
-    "earliness_lab": "TEMPRANO",
-    "not_temprano": false,
-    "fase": "Espera",
-    "markov": 2,
-    "markov_lab": "BULLISH",
-    "dif_ema": -7.39,
-    "calidad": "EXCELENTE",
-    "upside": 7.4
-   },
-   "buffett": 5,
-   "mos": null,
-   "rs_rank": 66,
-   "asof": "2026-10-02",
-   "price": 39.88,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 39.99,
-   "zones": {
-    "entry": 39.7,
-    "sl": 38.55,
-    "tp": 42.0,
-    "tp1": null,
-    "tp2": 42.0,
-    "atr": 0.574
-   }
-  },
-  {
-   "ticker": "VCTR",
-   "name": "Victory Capital Holdin",
-   "sector": "Financial Services",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
-   "composite": 85,
-   "prob": 34.1,
+   "composite": 84,
+   "prob": 34.0,
    "stats": {
     "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-04 → 2026-10-02)",
-    "n": 7444,
-    "p_tp": 34.1,
+    "fuente": "backtest del protocolo (2022-08-08 → 2026-10-05)",
+    "n": 7567,
+    "p_tp": 34.0,
     "p_tp_ic95": [
-     33.0,
+     32.9,
      35.1
     ],
-    "acierto": 38.2,
-    "ret_medio": 0.376,
-    "ret_medio_oos": 0.832,
+    "acierto": 38.1,
+    "ret_medio": 0.362,
+    "ret_medio_oos": 0.814,
     "dias_medios": 15.0,
     "le_gana_al_azar": false
    },
    "sizing": {
-    "stop_pct": 6.84,
-    "objetivo_pct": 13.68,
+    "stop_pct": 4.81,
+    "objetivo_pct": 9.61,
     "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 14.6,
-    "acciones_por_10k": 13
+    "posicion_pct_capital": 20.8,
+    "acciones_por_10k": 2
    },
    "reglas": {
     "bracket": "ALBA 2/4",
@@ -339,35 +67,51 @@
     "fase": "Señal máxima",
     "markov": 3,
     "markov_lab": "STRONG",
-    "dif_ema": -30.83,
+    "dif_ema": -21.1,
     "calidad": "EXCELENTE",
-    "upside": 15.7
+    "upside": 12.5
    },
-   "buffett": 95,
-   "mos": -39.0,
-   "rs_rank": 95,
-   "asof": "2026-10-02",
-   "price": 113.3,
+   "buffett": 85,
+   "mos": -50.5,
+   "rs_rank": 90,
+   "asof": "2026-10-05",
+   "price": 924.35,
    "live": null,
    "status": {
     "icon": "❔",
     "label": "SIN COTIZACIÓN",
     "note": "no se pudo validar el precio actual — verifica antes de operar"
    },
-   "max_chase": 114.07,
+   "max_chase": 928.76,
    "zones": {
-    "entry": 112.15,
-    "sl": 104.48,
-    "tp": 127.49,
+    "entry": 917.73,
+    "sl": 873.63,
+    "tp": 1005.95,
     "tp1": null,
-    "tp2": 127.49,
-    "atr": 3.8349
+    "tp2": 1005.95,
+    "atr": 22.0535
    }
   }
  ],
  "watchlist": [
   {
-   "ticker": "AAPL",
+   "ticker": "PBYI",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: ya tiene una alerta abierta, liquidez 3.1 M USD/día < 5"
+   ]
+  },
+  {
+   "ticker": "FCX",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: ya tiene una alerta abierta"
+   ]
+  },
+  {
+   "ticker": "MFG",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -375,31 +119,7 @@
    ]
   },
   {
-   "ticker": "HALO",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "SHEL",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Energy"
-   ]
-  },
-  {
-   "ticker": "DE",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "DELL",
+   "ticker": "IQV",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -415,7 +135,7 @@
    ]
   },
   {
-   "ticker": "TMO",
+   "ticker": "PNTG",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -423,7 +143,7 @@
    ]
   },
   {
-   "ticker": "CORT",
+   "ticker": "BIIB",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -431,7 +151,15 @@
    ]
   },
   {
-   "ticker": "EMGF",
+   "ticker": "PM",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "EEMV",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -439,106 +167,138 @@
    ]
   },
   {
-   "ticker": "SWKS",
+   "ticker": "CORO",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "CRL",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "RVMD",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "ADPT",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "GRID",
-   "setup": "RUPTURA",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "CIBR",
-   "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
     "Riesgo: tope de 2 posiciones en ETF"
    ]
   },
   {
-   "ticker": "HACK",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "VOD",
-   "setup": "IMPULSO",
+   "ticker": "CNNE",
+   "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "VSTS",
-   "setup": "IMPULSO",
+   "ticker": "PSNL",
+   "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "PARR",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
+   "ticker": "STX",
+   "setup": "RETROCESO",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "EXPD",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
+   "ticker": "DHR",
+   "setup": "RETROCESO",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "USO",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
+   "ticker": "IBB",
+   "setup": "RETROCESO",
+   "origen": "Listado",
    "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "ACWI",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BKLN",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "ICLR",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "MEDP",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CAI",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BRKR",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "EXEL",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "COKE",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BIO",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "ATRC",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
    ]
   }
  ],
  "universo": {
-  "snapshot": 1116,
-  "listado_candidatos": 0,
-  "listado_setups": 51,
+  "snapshot": 1131,
+  "listado_candidatos": 65,
+  "listado_setups": 206,
   "listado_cobertura_pct": 100.0
  }
 }
