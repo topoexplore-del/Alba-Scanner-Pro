@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-10-06 19:27:08 (Hora Colombia)",
+ "checked_at": "2026-10-07 19:41:52 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 779.09,
-  "spy_sma200": 718.13,
-  "spy_vs_sma200_pct": 8.49,
-  "drawdown_52w_pct": 0.0,
-  "realized_vol_20d": 10.4
+  "spy_price": 777.14,
+  "spy_sma200": 718.67,
+  "spy_vs_sma200_pct": 8.14,
+  "drawdown_52w_pct": -0.25,
+  "realized_vol_20d": 10.3
  },
  "confirmed": 0,
- "session_ref": "2026-10-06",
+ "session_ref": "2026-10-07",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -26,7 +26,7 @@
  "signals": [],
  "watchlist": [
   {
-   "ticker": "HALO",
+   "ticker": "PFE",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -34,7 +34,7 @@
    ]
   },
   {
-   "ticker": "MO",
+   "ticker": "TECH",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -42,15 +42,7 @@
    ]
   },
   {
-   "ticker": "PM",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "SRLN",
+   "ticker": "XLV",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -58,7 +50,7 @@
    ]
   },
   {
-   "ticker": "FLDR",
+   "ticker": "SPMO",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -66,72 +58,8 @@
    ]
   },
   {
-   "ticker": "GFLW",
-   "setup": "RUPTURA",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "DUHP",
-   "setup": "RUPTURA",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "PSX",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "NEU",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: ya tiene una alerta abierta"
-   ]
-  },
-  {
-   "ticker": "ENS",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "SHEL",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Energy"
-   ]
-  },
-  {
-   "ticker": "BP",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Energy"
-   ]
-  },
-  {
-   "ticker": "GLW",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "MFG",
-   "setup": "IMPULSO",
+   "ticker": "INTC",
+   "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
     "Calidad"
@@ -146,19 +74,11 @@
    ]
   },
   {
-   "ticker": "ONTO",
+   "ticker": "AIPO",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "NOK",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
+    "Tendencia"
    ]
   },
   {
@@ -168,28 +88,12 @@
    "failed": [
     "Calidad"
    ]
-  },
-  {
-   "ticker": "MRVI",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "BST",
-   "setup": "IMPULSO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
   }
  ],
  "universo": {
-  "snapshot": 1132,
-  "listado_candidatos": 1,
-  "listado_setups": 19,
+  "snapshot": 1124,
+  "listado_candidatos": 0,
+  "listado_setups": 5,
   "listado_cobertura_pct": 100.0
  }
 }
