@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-10-07 19:41:52 (Hora Colombia)",
+ "checked_at": "2026-10-08 20:04:35 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 777.14,
-  "spy_sma200": 718.67,
-  "spy_vs_sma200_pct": 8.14,
-  "drawdown_52w_pct": -0.25,
-  "realized_vol_20d": 10.3
+  "spy_price": 773.89,
+  "spy_sma200": 719.16,
+  "spy_vs_sma200_pct": 7.61,
+  "drawdown_52w_pct": -0.67,
+  "realized_vol_20d": 10.2
  },
- "confirmed": 0,
- "session_ref": "2026-10-07",
+ "confirmed": 2,
+ "session_ref": "2026-10-08",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -23,10 +23,153 @@
    "IMPULSO"
   ]
  },
- "signals": [],
+ "signals": [
+  {
+   "ticker": "CHEF",
+   "name": "The Chefs' Warehouse, ",
+   "sector": "Consumer Defensive",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 71,
+   "prob": 33.6,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-08-11 → 2026-10-08)",
+    "n": 10373,
+    "p_tp": 33.6,
+    "p_tp_ic95": [
+     32.7,
+     34.5
+    ],
+    "acierto": 38.3,
+    "ret_medio": 0.307,
+    "ret_medio_oos": 0.357,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 1,
+     "acierto": 0.0,
+     "p_tp": 0.0,
+     "expectativa_pct": -5.58
+    }
+   },
+   "sizing": {
+    "stop_pct": 6.96,
+    "objetivo_pct": 13.91,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 14.4,
+    "acciones_por_10k": 13
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 95,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Espera",
+    "markov": 2,
+    "markov_lab": "BULLISH",
+    "dif_ema": -33.5,
+    "calidad": "REGULAR",
+    "upside": 7.0
+   },
+   "buffett": 25,
+   "mos": -75.4,
+   "rs_rank": 93,
+   "asof": "2026-10-08",
+   "price": 111.57,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 112.34,
+   "zones": {
+    "entry": 110.42,
+    "sl": 102.74,
+    "tp": 125.78,
+    "tp1": null,
+    "tp2": 125.78,
+    "atr": 3.8412
+   }
+  },
+  {
+   "ticker": "ANET",
+   "name": "Arista Networks, Inc.",
+   "sector": "Technology",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
+   "composite": 80,
+   "prob": 34.0,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-08-11 → 2026-10-08)",
+    "n": 7577,
+    "p_tp": 34.0,
+    "p_tp_ic95": [
+     33.0,
+     35.1
+    ],
+    "acierto": 38.2,
+    "ret_medio": 0.363,
+    "ret_medio_oos": 0.823,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false
+   },
+   "sizing": {
+    "stop_pct": 6.72,
+    "objetivo_pct": 13.45,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 14.9,
+    "acciones_por_10k": 7
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 55,
+    "earliness_lab": "FRESCO",
+    "not_temprano": true,
+    "fase": "Señal máxima",
+    "markov": 3,
+    "markov_lab": "STRONG",
+    "dif_ema": -27.78,
+    "calidad": "BUENO",
+    "upside": 12.0
+   },
+   "buffett": 70,
+   "mos": -86.3,
+   "rs_rank": 90,
+   "asof": "2026-10-08",
+   "price": 210.85,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 212.25,
+   "zones": {
+    "entry": 208.74,
+    "sl": 194.71,
+    "tp": 236.82,
+    "tp1": null,
+    "tp2": 236.82,
+    "atr": 7.0181
+   }
+  }
+ ],
  "watchlist": [
   {
-   "ticker": "PFE",
+   "ticker": "BBY",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -34,7 +177,15 @@
    ]
   },
   {
-   "ticker": "TECH",
+   "ticker": "FAST",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: ya tiene una alerta abierta"
+   ]
+  },
+  {
+   "ticker": "TWLO",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -42,27 +193,59 @@
    ]
   },
   {
-   "ticker": "XLV",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "SPMO",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "INTC",
+   "ticker": "HPQ",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
     "Calidad"
+   ]
+  },
+  {
+   "ticker": "SNOW",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "PARR",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "SMCI",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Technology"
+   ]
+  },
+  {
+   "ticker": "APA",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: ya tiene una alerta abierta"
+   ]
+  },
+  {
+   "ticker": "CBOE",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "XOM",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Energy"
    ]
   },
   {
@@ -74,11 +257,43 @@
    ]
   },
   {
-   "ticker": "AIPO",
+   "ticker": "MCK",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
-    "Tendencia"
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "XLE",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "HACK",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "XLK",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "DBMF",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
    ]
   },
   {
@@ -91,9 +306,9 @@
   }
  ],
  "universo": {
-  "snapshot": 1124,
+  "snapshot": 1132,
   "listado_candidatos": 0,
-  "listado_setups": 5,
+  "listado_setups": 12,
   "listado_cobertura_pct": 100.0
  }
 }
