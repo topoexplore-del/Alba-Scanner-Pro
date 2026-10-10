@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-10-08 20:04:35 (Hora Colombia)",
+ "checked_at": "2026-10-09 19:49:16 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 773.89,
-  "spy_sma200": 719.16,
-  "spy_vs_sma200_pct": 7.61,
-  "drawdown_52w_pct": -0.67,
-  "realized_vol_20d": 10.2
+  "spy_price": 778.53,
+  "spy_sma200": 719.66,
+  "spy_vs_sma200_pct": 8.18,
+  "drawdown_52w_pct": -0.07,
+  "realized_vol_20d": 9.9
  },
  "confirmed": 2,
- "session_ref": "2026-10-08",
+ "session_ref": "2026-10-09",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -25,26 +25,26 @@
  },
  "signals": [
   {
-   "ticker": "CHEF",
-   "name": "The Chefs' Warehouse, ",
-   "sector": "Consumer Defensive",
+   "ticker": "NDSN",
+   "name": "Nordson Corporation",
+   "sector": "Industrials",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
-   "composite": 71,
+   "composite": 70,
    "prob": 33.6,
    "stats": {
     "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-11 → 2026-10-08)",
-    "n": 10373,
+    "fuente": "backtest del protocolo (2022-08-11 → 2026-10-09)",
+    "n": 10359,
     "p_tp": 33.6,
     "p_tp_ic95": [
      32.7,
      34.5
     ],
     "acierto": 38.3,
-    "ret_medio": 0.307,
-    "ret_medio_oos": 0.357,
+    "ret_medio": 0.308,
+    "ret_medio_oos": 0.356,
     "dias_medios": 15.0,
     "le_gana_al_azar": false,
     "en_vivo": {
@@ -55,11 +55,11 @@
     }
    },
    "sizing": {
-    "stop_pct": 6.96,
-    "objetivo_pct": 13.91,
+    "stop_pct": 3.76,
+    "objetivo_pct": 7.52,
     "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 14.4,
-    "acciones_por_10k": 13
+    "posicion_pct_capital": 26.6,
+    "acciones_por_10k": 8
    },
    "reglas": {
     "bracket": "ALBA 2/4",
@@ -67,109 +67,115 @@
     "expiry": 45
    },
    "fg": {
-    "earliness": 95,
+    "earliness": 75,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Acumulación",
+    "markov": 2,
+    "markov_lab": "BULLISH",
+    "dif_ema": -12.33,
+    "calidad": "REGULAR",
+    "upside": 5.6
+   },
+   "buffett": 85,
+   "mos": -65.2,
+   "rs_rank": 91,
+   "asof": "2026-10-09",
+   "price": 328.38,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 329.61,
+   "zones": {
+    "entry": 326.54,
+    "sl": 314.26,
+    "tp": 351.1,
+    "tp1": null,
+    "tp2": 351.1,
+    "atr": 6.1403
+   }
+  },
+  {
+   "ticker": "LQDT",
+   "name": "Liquidity Services, In",
+   "sector": "Consumer Cyclical",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 61,
+   "prob": 33.6,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-08-11 → 2026-10-09)",
+    "n": 10359,
+    "p_tp": 33.6,
+    "p_tp_ic95": [
+     32.7,
+     34.5
+    ],
+    "acierto": 38.3,
+    "ret_medio": 0.308,
+    "ret_medio_oos": 0.356,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 1,
+     "acierto": 0.0,
+     "p_tp": 0.0,
+     "expectativa_pct": -5.58
+    }
+   },
+   "sizing": {
+    "stop_pct": 5.68,
+    "objetivo_pct": 11.38,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 17.6,
+    "acciones_por_10k": 41
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 85,
     "earliness_lab": "TEMPRANO",
     "not_temprano": false,
     "fase": "Espera",
     "markov": 2,
     "markov_lab": "BULLISH",
-    "dif_ema": -33.5,
+    "dif_ema": -19.41,
     "calidad": "REGULAR",
-    "upside": 7.0
+    "upside": 5.2
    },
-   "buffett": 25,
-   "mos": -75.4,
-   "rs_rank": 93,
-   "asof": "2026-10-08",
-   "price": 111.57,
+   "buffett": 50,
+   "mos": -69.5,
+   "rs_rank": 88,
+   "asof": "2026-10-09",
+   "price": 43.16,
    "live": null,
    "status": {
     "icon": "❔",
     "label": "SIN COTIZACIÓN",
     "note": "no se pudo validar el precio actual — verifica antes de operar"
    },
-   "max_chase": 112.34,
+   "max_chase": 43.4,
    "zones": {
-    "entry": 110.42,
-    "sl": 102.74,
-    "tp": 125.78,
+    "entry": 42.79,
+    "sl": 40.36,
+    "tp": 47.66,
     "tp1": null,
-    "tp2": 125.78,
-    "atr": 3.8412
-   }
-  },
-  {
-   "ticker": "ANET",
-   "name": "Arista Networks, Inc.",
-   "sector": "Technology",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
-   "composite": 80,
-   "prob": 34.0,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-11 → 2026-10-08)",
-    "n": 7577,
-    "p_tp": 34.0,
-    "p_tp_ic95": [
-     33.0,
-     35.1
-    ],
-    "acierto": 38.2,
-    "ret_medio": 0.363,
-    "ret_medio_oos": 0.823,
-    "dias_medios": 15.0,
-    "le_gana_al_azar": false
-   },
-   "sizing": {
-    "stop_pct": 6.72,
-    "objetivo_pct": 13.45,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 14.9,
-    "acciones_por_10k": 7
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 55,
-    "earliness_lab": "FRESCO",
-    "not_temprano": true,
-    "fase": "Señal máxima",
-    "markov": 3,
-    "markov_lab": "STRONG",
-    "dif_ema": -27.78,
-    "calidad": "BUENO",
-    "upside": 12.0
-   },
-   "buffett": 70,
-   "mos": -86.3,
-   "rs_rank": 90,
-   "asof": "2026-10-08",
-   "price": 210.85,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 212.25,
-   "zones": {
-    "entry": 208.74,
-    "sl": 194.71,
-    "tp": 236.82,
-    "tp1": null,
-    "tp2": 236.82,
-    "atr": 7.0181
+    "tp2": 47.66,
+    "atr": 1.2155
    }
   }
  ],
  "watchlist": [
   {
-   "ticker": "BBY",
+   "ticker": "HALO",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -177,7 +183,7 @@
    ]
   },
   {
-   "ticker": "FAST",
+   "ticker": "CHEF",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -185,7 +191,23 @@
    ]
   },
   {
-   "ticker": "TWLO",
+   "ticker": "AME",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Industrials"
+   ]
+  },
+  {
+   "ticker": "WCC",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Industrials"
+   ]
+  },
+  {
+   "ticker": "TMO",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -193,7 +215,7 @@
    ]
   },
   {
-   "ticker": "HPQ",
+   "ticker": "ETN",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -201,7 +223,7 @@
    ]
   },
   {
-   "ticker": "SNOW",
+   "ticker": "BE",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -209,39 +231,87 @@
    ]
   },
   {
-   "ticker": "PARR",
-   "setup": "IMPULSO",
+   "ticker": "UGI",
+   "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "SMCI",
-   "setup": "IMPULSO",
+   "ticker": "MRK",
+   "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: tope de 2 posiciones en Technology"
+    "Calidad"
    ]
   },
   {
-   "ticker": "APA",
-   "setup": "IMPULSO",
+   "ticker": "EWJ",
+   "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: ya tiene una alerta abierta"
+    "Riesgo: tope de 2 posiciones en ETF"
    ]
   },
   {
-   "ticker": "CBOE",
-   "setup": "IMPULSO",
+   "ticker": "RECS",
+   "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Tendencia"
+    "Riesgo: tope de 2 posiciones en ETF"
    ]
   },
   {
-   "ticker": "XOM",
+   "ticker": "FWD",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "CYRX",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "TXG",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "USO",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "ARKK",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "BST",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BP",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
@@ -249,35 +319,11 @@
    ]
   },
   {
-   "ticker": "ABBV",
+   "ticker": "WAT",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
     "Calidad"
-   ]
-  },
-  {
-   "ticker": "MCK",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "XLE",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "HACK",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
    ]
   },
   {
@@ -287,28 +333,12 @@
    "failed": [
     "Riesgo: tope de 2 posiciones en ETF"
    ]
-  },
-  {
-   "ticker": "DBMF",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "VSTS",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
   }
  ],
  "universo": {
-  "snapshot": 1132,
-  "listado_candidatos": 0,
-  "listado_setups": 12,
+  "snapshot": 1130,
+  "listado_candidatos": 1,
+  "listado_setups": 22,
   "listado_cobertura_pct": 100.0
  }
 }
