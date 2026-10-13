@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-10-09 19:49:16 (Hora Colombia)",
+ "checked_at": "2026-10-12 21:49:32 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 778.53,
-  "spy_sma200": 719.66,
-  "spy_vs_sma200_pct": 8.18,
-  "drawdown_52w_pct": -0.07,
-  "realized_vol_20d": 9.9
+  "spy_price": 778.1,
+  "spy_sma200": 720.14,
+  "spy_vs_sma200_pct": 8.05,
+  "drawdown_52w_pct": -0.13,
+  "realized_vol_20d": 9.8
  },
- "confirmed": 2,
- "session_ref": "2026-10-09",
+ "confirmed": 0,
+ "session_ref": "2026-10-12",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -23,167 +23,26 @@
    "IMPULSO"
   ]
  },
- "signals": [
-  {
-   "ticker": "NDSN",
-   "name": "Nordson Corporation",
-   "sector": "Industrials",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
-   "composite": 70,
-   "prob": 33.6,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-11 → 2026-10-09)",
-    "n": 10359,
-    "p_tp": 33.6,
-    "p_tp_ic95": [
-     32.7,
-     34.5
-    ],
-    "acierto": 38.3,
-    "ret_medio": 0.308,
-    "ret_medio_oos": 0.356,
-    "dias_medios": 15.0,
-    "le_gana_al_azar": false,
-    "en_vivo": {
-     "n": 1,
-     "acierto": 0.0,
-     "p_tp": 0.0,
-     "expectativa_pct": -5.58
-    }
-   },
-   "sizing": {
-    "stop_pct": 3.76,
-    "objetivo_pct": 7.52,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 26.6,
-    "acciones_por_10k": 8
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 75,
-    "earliness_lab": "TEMPRANO",
-    "not_temprano": false,
-    "fase": "Acumulación",
-    "markov": 2,
-    "markov_lab": "BULLISH",
-    "dif_ema": -12.33,
-    "calidad": "REGULAR",
-    "upside": 5.6
-   },
-   "buffett": 85,
-   "mos": -65.2,
-   "rs_rank": 91,
-   "asof": "2026-10-09",
-   "price": 328.38,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 329.61,
-   "zones": {
-    "entry": 326.54,
-    "sl": 314.26,
-    "tp": 351.1,
-    "tp1": null,
-    "tp2": 351.1,
-    "atr": 6.1403
-   }
-  },
-  {
-   "ticker": "LQDT",
-   "name": "Liquidity Services, In",
-   "sector": "Consumer Cyclical",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
-   "composite": 61,
-   "prob": 33.6,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-11 → 2026-10-09)",
-    "n": 10359,
-    "p_tp": 33.6,
-    "p_tp_ic95": [
-     32.7,
-     34.5
-    ],
-    "acierto": 38.3,
-    "ret_medio": 0.308,
-    "ret_medio_oos": 0.356,
-    "dias_medios": 15.0,
-    "le_gana_al_azar": false,
-    "en_vivo": {
-     "n": 1,
-     "acierto": 0.0,
-     "p_tp": 0.0,
-     "expectativa_pct": -5.58
-    }
-   },
-   "sizing": {
-    "stop_pct": 5.68,
-    "objetivo_pct": 11.38,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 17.6,
-    "acciones_por_10k": 41
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 85,
-    "earliness_lab": "TEMPRANO",
-    "not_temprano": false,
-    "fase": "Espera",
-    "markov": 2,
-    "markov_lab": "BULLISH",
-    "dif_ema": -19.41,
-    "calidad": "REGULAR",
-    "upside": 5.2
-   },
-   "buffett": 50,
-   "mos": -69.5,
-   "rs_rank": 88,
-   "asof": "2026-10-09",
-   "price": 43.16,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 43.4,
-   "zones": {
-    "entry": 42.79,
-    "sl": 40.36,
-    "tp": 47.66,
-    "tp1": null,
-    "tp2": 47.66,
-    "atr": 1.2155
-   }
-  }
- ],
+ "signals": [],
  "watchlist": [
   {
-   "ticker": "HALO",
+   "ticker": "MATX",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Calidad"
+    "Riesgo: tope de 2 posiciones en Industrials"
    ]
   },
   {
-   "ticker": "CHEF",
+   "ticker": "NDSN",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: ya tiene una alerta abierta"
+   ]
+  },
+  {
+   "ticker": "LQDT",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -199,14 +58,6 @@
    ]
   },
   {
-   "ticker": "WCC",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Industrials"
-   ]
-  },
-  {
    "ticker": "TMO",
    "setup": "RETROCESO",
    "origen": "Universo principal",
@@ -215,7 +66,7 @@
    ]
   },
   {
-   "ticker": "ETN",
+   "ticker": "PNTG",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -223,7 +74,7 @@
    ]
   },
   {
-   "ticker": "BE",
+   "ticker": "TECH",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -231,7 +82,7 @@
    ]
   },
   {
-   "ticker": "UGI",
+   "ticker": "W",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -239,7 +90,7 @@
    ]
   },
   {
-   "ticker": "MRK",
+   "ticker": "CRL",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -247,31 +98,7 @@
    ]
   },
   {
-   "ticker": "EWJ",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "RECS",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "FWD",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "CYRX",
+   "ticker": "CNNE",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -279,31 +106,7 @@
    ]
   },
   {
-   "ticker": "TXG",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "USO",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "ARKK",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "BST",
+   "ticker": "IBIT",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -311,34 +114,122 @@
    ]
   },
   {
-   "ticker": "BP",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Energy"
-   ]
-  },
-  {
-   "ticker": "WAT",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
+   "ticker": "DHR",
+   "setup": "RETROCESO",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "XLK",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
+   "ticker": "FBTC",
+   "setup": "RETROCESO",
+   "origen": "Listado",
    "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "WST",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CRBG",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "EQH",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "MEDP",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CLH",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "GBTC",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "HTFL",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BTC",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "SATA",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "MRX",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "ARKB",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CPA",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
    ]
   }
  ],
  "universo": {
-  "snapshot": 1130,
-  "listado_candidatos": 1,
-  "listado_setups": 22,
+  "snapshot": 1131,
+  "listado_candidatos": 51,
+  "listado_setups": 146,
   "listado_cobertura_pct": 100.0
  }
 }
