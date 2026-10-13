@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-12 21:49:32 (Hora Colombia)",
+ "checked_at": "2026-10-12 22:31:29 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
@@ -10,7 +10,7 @@
   "drawdown_52w_pct": -0.13,
   "realized_vol_20d": 9.8
  },
- "confirmed": 0,
+ "confirmed": 1,
  "session_ref": "2026-10-12",
  "reglas": {
   "bracket": "ALBA 2/4",
@@ -23,7 +23,66 @@
    "IMPULSO"
   ]
  },
- "signals": [],
+ "signals": [
+  {
+   "ticker": "URBN",
+   "name": "Urban Outfitters, Inc.",
+   "sector": "Consumer Cyclical",
+   "setup": "IMPULSO",
+   "origen": "Listado",
+   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
+   "composite": 96,
+   "prob": 34.0,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-08-15 → 2026-10-12)",
+    "n": 7558,
+    "p_tp": 34.0,
+    "p_tp_ic95": [
+     32.9,
+     35.1
+    ],
+    "acierto": 38.2,
+    "ret_medio": 0.368,
+    "ret_medio_oos": 0.857,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false
+   },
+   "sizing": {
+    "stop_pct": 6.19,
+    "objetivo_pct": 12.39,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 16.2,
+    "acciones_por_10k": 19
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": null,
+   "buffett": 55,
+   "mos": -19.9,
+   "rs_rank": 93,
+   "asof": "2026-10-12",
+   "price": 82.69,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 83.2,
+   "zones": {
+    "entry": 81.93,
+    "sl": 76.86,
+    "tp": 92.08,
+    "tp1": null,
+    "tp2": 92.08,
+    "atr": 2.5366
+   }
+  }
+ ],
  "watchlist": [
   {
    "ticker": "MATX",
@@ -228,8 +287,8 @@
  ],
  "universo": {
   "snapshot": 1131,
-  "listado_candidatos": 51,
-  "listado_setups": 146,
+  "listado_candidatos": 52,
+  "listado_setups": 147,
   "listado_cobertura_pct": 100.0
  }
 }
