@@ -1,13 +1,13 @@
 {
- "checked_at": "2026-10-13 19:29:39 (Hora Colombia)",
+ "checked_at": "2026-10-13 20:07:25 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 778.01,
+  "spy_price": 778.04,
   "spy_sma200": 720.6,
   "spy_vs_sma200_pct": 7.97,
-  "drawdown_52w_pct": -0.14,
+  "drawdown_52w_pct": -0.13,
   "realized_vol_20d": 9.5
  },
  "confirmed": 2,
@@ -36,14 +36,14 @@
    "stats": {
     "calibrada": true,
     "fuente": "backtest del protocolo (2022-08-16 → 2026-10-13)",
-    "n": 10375,
+    "n": 10377,
     "p_tp": 33.6,
     "p_tp_ic95": [
      32.7,
-     34.6
+     34.5
     ],
     "acierto": 38.3,
-    "ret_medio": 0.307,
+    "ret_medio": 0.305,
     "ret_medio_oos": 0.354,
     "dias_medios": 15.0,
     "le_gana_al_azar": false,
@@ -73,61 +73,67 @@
     "fase": "Espera",
     "markov": 2,
     "markov_lab": "BULLISH",
-    "dif_ema": -17.42,
+    "dif_ema": -17.4,
     "calidad": "DÉBIL",
     "upside": 4.0
    },
    "buffett": 0,
    "mos": null,
-   "rs_rank": 84,
+   "rs_rank": 83,
    "asof": "2026-10-13",
-   "price": 267.31,
+   "price": 267.13,
    "live": null,
    "status": {
     "icon": "❔",
     "label": "SIN COTIZACIÓN",
     "note": "no se pudo validar el precio actual — verifica antes de operar"
    },
-   "max_chase": 268.03,
+   "max_chase": 267.85,
    "zones": {
-    "entry": 266.23,
-    "sl": 259.02,
-    "tp": 280.65,
+    "entry": 266.05,
+    "sl": 258.84,
+    "tp": 280.47,
     "tp1": null,
-    "tp2": 280.65,
-    "atr": 3.6054
+    "tp2": 280.47,
+    "atr": 3.6053
    }
   },
   {
-   "ticker": "IGV",
-   "name": "iShares Expanded Tech-",
+   "ticker": "QDPL",
+   "name": "Pacer Metaurus US Larg",
    "sector": "ETF",
-   "setup": "IMPULSO",
+   "setup": "RETROCESO",
    "origen": "Universo principal",
-   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
-   "composite": 10,
-   "prob": 34.1,
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 15,
+   "prob": 33.6,
    "stats": {
     "calibrada": true,
     "fuente": "backtest del protocolo (2022-08-16 → 2026-10-13)",
-    "n": 7555,
-    "p_tp": 34.1,
+    "n": 10377,
+    "p_tp": 33.6,
     "p_tp_ic95": [
-     33.0,
-     35.1
+     32.7,
+     34.5
     ],
-    "acierto": 38.2,
-    "ret_medio": 0.371,
-    "ret_medio_oos": 0.853,
+    "acierto": 38.3,
+    "ret_medio": 0.305,
+    "ret_medio_oos": 0.354,
     "dias_medios": 15.0,
-    "le_gana_al_azar": false
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 3,
+     "acierto": 0.0,
+     "p_tp": 0.0,
+     "expectativa_pct": -3.88
+    }
    },
    "sizing": {
-    "stop_pct": 4.39,
-    "objetivo_pct": 8.76,
+    "stop_pct": 1.67,
+    "objetivo_pct": 3.37,
     "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 22.8,
-    "acciones_por_10k": 20
+    "posicion_pct_capital": 59.7,
+    "acciones_por_10k": 128
    },
    "reglas": {
     "bracket": "ALBA 2/4",
@@ -135,35 +141,35 @@
     "expiry": 45
    },
    "fg": {
-    "earliness": 75,
+    "earliness": 85,
     "earliness_lab": "TEMPRANO",
     "not_temprano": false,
-    "fase": "Señal activa",
-    "markov": 3,
-    "markov_lab": "STRONG",
-    "dif_ema": -15.62,
-    "calidad": "DÉBIL",
-    "upside": 11.9
+    "fase": "Espera",
+    "markov": 2,
+    "markov_lab": "BULLISH",
+    "dif_ema": -6.52,
+    "calidad": "BUENO",
+    "upside": 2.5
    },
    "buffett": 0,
    "mos": null,
-   "rs_rank": 93,
+   "rs_rank": 73,
    "asof": "2026-10-13",
-   "price": 110.98,
+   "price": 46.69,
    "live": null,
    "status": {
     "icon": "❔",
     "label": "SIN COTIZACIÓN",
     "note": "no se pudo validar el precio actual — verifica antes de operar"
    },
-   "max_chase": 111.47,
+   "max_chase": 46.77,
    "zones": {
-    "entry": 110.26,
-    "sl": 105.42,
-    "tp": 119.92,
+    "entry": 46.57,
+    "sl": 45.79,
+    "tp": 48.14,
     "tp1": null,
-    "tp2": 119.92,
-    "atr": 2.4153
+    "tp2": 48.14,
+    "atr": 0.393
    }
   }
  ],
@@ -257,6 +263,14 @@
    ]
   },
   {
+   "ticker": "GOOGL",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
    "ticker": "CBOE",
    "setup": "IMPULSO",
    "origen": "Universo principal",
@@ -269,7 +283,23 @@
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
-    "Calidad"
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "FMDE",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "IGV",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
    ]
   },
   {
@@ -287,10 +317,18 @@
    "failed": [
     "Riesgo: tope de 2 posiciones en ETF"
    ]
+  },
+  {
+   "ticker": "CNNE",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
   }
  ],
  "universo": {
-  "snapshot": 1130,
+  "snapshot": 1131,
   "listado_candidatos": 1,
   "listado_setups": 10,
   "listado_cobertura_pct": 100.0
