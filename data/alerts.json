@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-15 18:46:12 (Hora Colombia)",
+ "checked_at": "2026-10-15 19:20:55 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
@@ -44,7 +44,7 @@
     ],
     "acierto": 38.3,
     "ret_medio": 0.297,
-    "ret_medio_oos": 0.359,
+    "ret_medio_oos": 0.356,
     "dias_medios": 15.0,
     "le_gana_al_azar": false,
     "en_vivo": {
@@ -118,7 +118,7 @@
     ],
     "acierto": 38.3,
     "ret_medio": 0.297,
-    "ret_medio_oos": 0.359,
+    "ret_medio_oos": 0.356,
     "dias_medios": 15.0,
     "le_gana_al_azar": false,
     "en_vivo": {
@@ -144,7 +144,7 @@
     "earliness": 95,
     "earliness_lab": "TEMPRANO",
     "not_temprano": false,
-    "fase": "Acumulación",
+    "fase": "Espera",
     "markov": 3,
     "markov_lab": "STRONG",
     "dif_ema": -7.19,
@@ -180,19 +180,19 @@
    "origen": "Universo principal",
    "setup_desc": "Base estrecha de 20 días (rango ≤ 6 ATR) que se rompe al cierre con volumen ≥ 1,5× y sin estiramiento.",
    "composite": 81,
-   "prob": 37.3,
+   "prob": 38.1,
    "stats": {
     "calibrada": true,
     "fuente": "backtest del protocolo (2022-08-18 → 2026-10-15)",
-    "n": 482,
-    "p_tp": 37.3,
+    "n": 480,
+    "p_tp": 38.1,
     "p_tp_ic95": [
-     33.1,
-     41.7
+     33.9,
+     42.5
     ],
-    "acierto": 42.5,
-    "ret_medio": 0.564,
-    "ret_medio_oos": 0.436,
+    "acierto": 43.1,
+    "ret_medio": 0.618,
+    "ret_medio_oos": 0.47,
     "dias_medios": 16.0,
     "le_gana_al_azar": false
    },
@@ -411,7 +411,7 @@
    ]
   },
   {
-   "ticker": "RBRK",
+   "ticker": "PSEP",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -419,7 +419,7 @@
    ]
   },
   {
-   "ticker": "IWB",
+   "ticker": "FAUG",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -427,7 +427,7 @@
    ]
   },
   {
-   "ticker": "CRBG",
+   "ticker": "GSEP",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -435,7 +435,7 @@
    ]
   },
   {
-   "ticker": "BB",
+   "ticker": "FJUL",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -445,8 +445,8 @@
  ],
  "universo": {
   "snapshot": 1131,
-  "listado_candidatos": 79,
-  "listado_setups": 404,
+  "listado_candidatos": 4,
+  "listado_setups": 129,
   "listado_cobertura_pct": 100.0
  }
 }
