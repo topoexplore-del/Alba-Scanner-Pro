@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-16 18:43:52 (Hora Colombia)",
+ "checked_at": "2026-10-16 19:22:30 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
@@ -10,7 +10,7 @@
   "drawdown_52w_pct": -2.03,
   "realized_vol_20d": 10.5
  },
- "confirmed": 2,
+ "confirmed": 1,
  "session_ref": "2026-10-16",
  "reglas": {
   "bracket": "ALBA 2/4",
@@ -25,80 +25,6 @@
  },
  "signals": [
   {
-   "ticker": "CMDY",
-   "name": "iShares Bloomberg Roll",
-   "sector": "ETF",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
-   "composite": 0,
-   "prob": 33.6,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-18 → 2026-10-16)",
-    "n": 10432,
-    "p_tp": 33.6,
-    "p_tp_ic95": [
-     32.7,
-     34.5
-    ],
-    "acierto": 38.3,
-    "ret_medio": 0.296,
-    "ret_medio_oos": 0.354,
-    "dias_medios": 15.0,
-    "le_gana_al_azar": false,
-    "en_vivo": {
-     "n": 8,
-     "acierto": 25.0,
-     "p_tp": 25.0,
-     "expectativa_pct": 0.38
-    }
-   },
-   "sizing": {
-    "stop_pct": 2.27,
-    "objetivo_pct": 4.56,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 44.0,
-    "acciones_por_10k": 68
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 100,
-    "earliness_lab": "TEMPRANO",
-    "not_temprano": false,
-    "fase": "Espera",
-    "markov": 3,
-    "markov_lab": "STRONG",
-    "dif_ema": -9.28,
-    "calidad": null,
-    "upside": 3.4
-   },
-   "buffett": 0,
-   "mos": null,
-   "rs_rank": 86,
-   "asof": "2026-10-16",
-   "price": 64.53,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 64.68,
-   "zones": {
-    "entry": 64.31,
-    "sl": 62.85,
-    "tp": 67.24,
-    "tp1": null,
-    "tp2": 67.24,
-    "atr": 0.7324
-   }
-  },
-  {
    "ticker": "A",
    "name": "Agilent Technologies, ",
    "sector": "Healthcare",
@@ -106,19 +32,19 @@
    "origen": "Universo principal",
    "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
    "composite": 69,
-   "prob": 34.0,
+   "prob": 34.1,
    "stats": {
     "calibrada": true,
     "fuente": "backtest del protocolo (2022-08-18 → 2026-10-16)",
-    "n": 7593,
-    "p_tp": 34.0,
+    "n": 7590,
+    "p_tp": 34.1,
     "p_tp_ic95": [
      33.0,
      35.1
     ],
     "acierto": 38.2,
-    "ret_medio": 0.364,
-    "ret_medio_oos": 0.832,
+    "ret_medio": 0.369,
+    "ret_medio_oos": 0.829,
     "dias_medios": 15.0,
     "le_gana_al_azar": false,
     "en_vivo": {
@@ -183,33 +109,73 @@
    ]
   },
   {
-   "ticker": "PGR",
+   "ticker": "CMDY",
    "setup": "RETROCESO",
-   "origen": "Listado",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "EXPD",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Industrials"
+   ]
+  },
+  {
+   "ticker": "BAP",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "VRNS",
-   "setup": "RETROCESO",
-   "origen": "Listado",
+   "ticker": "NUE",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "ECL",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "AUGO",
-   "setup": "RETROCESO",
-   "origen": "Listado",
+   "ticker": "MANH",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "BCI",
-   "setup": "RETROCESO",
-   "origen": "Listado",
+   "ticker": "BIIB",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "FEGE",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "CNNE",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
@@ -377,8 +343,8 @@
  ],
  "universo": {
   "snapshot": 1131,
-  "listado_candidatos": 29,
-  "listado_setups": 99,
+  "listado_candidatos": 0,
+  "listado_setups": 9,
   "listado_cobertura_pct": 100.0
  }
 }
