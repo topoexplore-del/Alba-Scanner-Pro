@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-10-19 20:05:25 (Hora Colombia)",
+ "checked_at": "2026-10-20 18:45:13 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 766.54,
-  "spy_sma200": 722.33,
-  "spy_vs_sma200_pct": 6.12,
-  "drawdown_52w_pct": -1.61,
-  "realized_vol_20d": 8.9
+  "spy_price": 769.05,
+  "spy_sma200": 722.78,
+  "spy_vs_sma200_pct": 6.4,
+  "drawdown_52w_pct": -1.29,
+  "realized_vol_20d": 9.0
  },
- "confirmed": 1,
- "session_ref": "2026-10-19",
+ "confirmed": 2,
+ "session_ref": "2026-10-20",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -25,26 +25,26 @@
  },
  "signals": [
   {
-   "ticker": "DBMF",
-   "name": "iMGP DBi Managed Futur",
-   "sector": "ETF",
+   "ticker": "LQDT",
+   "name": "Liquidity Services, In",
+   "sector": "Consumer Cyclical",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
-   "composite": 10,
+   "composite": 61,
    "prob": 33.6,
    "stats": {
     "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-22 → 2026-10-19)",
-    "n": 10433,
+    "fuente": "backtest del protocolo (2022-08-23 → 2026-10-20)",
+    "n": 10430,
     "p_tp": 33.6,
     "p_tp_ic95": [
      32.7,
      34.5
     ],
     "acierto": 38.3,
-    "ret_medio": 0.298,
-    "ret_medio_oos": 0.379,
+    "ret_medio": 0.299,
+    "ret_medio_oos": 0.381,
     "dias_medios": 15.0,
     "le_gana_al_azar": false,
     "en_vivo": {
@@ -55,11 +55,11 @@
     }
    },
    "sizing": {
-    "stop_pct": 2.34,
-    "objetivo_pct": 4.72,
+    "stop_pct": 5.06,
+    "objetivo_pct": 10.12,
     "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 42.7,
-    "acciones_por_10k": 129
+    "posicion_pct_capital": 19.8,
+    "acciones_por_10k": 45
    },
    "reglas": {
     "bracket": "ALBA 2/4",
@@ -67,41 +67,115 @@
     "expiry": 45
    },
    "fg": {
-    "earliness": 85,
+    "earliness": 95,
     "earliness_lab": "TEMPRANO",
     "not_temprano": false,
     "fase": "Acumulación",
-    "markov": 2,
-    "markov_lab": "BULLISH",
-    "dif_ema": -6.87,
-    "calidad": "DÉBIL",
-    "upside": 3.5
+    "markov": 3,
+    "markov_lab": "STRONG",
+    "dif_ema": -18.51,
+    "calidad": "REGULAR",
+    "upside": 4.3
    },
-   "buffett": 0,
-   "mos": null,
-   "rs_rank": 82,
-   "asof": "2026-10-19",
-   "price": 32.97,
+   "buffett": 50,
+   "mos": -69.7,
+   "rs_rank": 88,
+   "asof": "2026-10-20",
+   "price": 43.4,
    "live": null,
    "status": {
     "icon": "❔",
     "label": "SIN COTIZACIÓN",
     "note": "no se pudo validar el precio actual — verifica antes de operar"
    },
-   "max_chase": 33.04,
+   "max_chase": 43.62,
    "zones": {
-    "entry": 32.85,
-    "sl": 32.08,
-    "tp": 34.4,
+    "entry": 43.07,
+    "sl": 40.89,
+    "tp": 47.43,
     "tp1": null,
-    "tp2": 34.4,
-    "atr": 0.386
+    "tp2": 47.43,
+    "atr": 1.0902
+   }
+  },
+  {
+   "ticker": "PGNY",
+   "name": "Progyny, Inc.",
+   "sector": "Healthcare",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
+   "composite": 80,
+   "prob": 34.2,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-08-23 → 2026-10-20)",
+    "n": 7574,
+    "p_tp": 34.2,
+    "p_tp_ic95": [
+     33.1,
+     35.2
+    ],
+    "acierto": 38.3,
+    "ret_medio": 0.381,
+    "ret_medio_oos": 0.866,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 3,
+     "acierto": 0.0,
+     "p_tp": 0.0,
+     "expectativa_pct": -5.75
+    }
+   },
+   "sizing": {
+    "stop_pct": 6.71,
+    "objetivo_pct": 13.39,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 14.9,
+    "acciones_por_10k": 52
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 65,
+    "earliness_lab": "FRESCO",
+    "not_temprano": true,
+    "fase": "Señal máxima",
+    "markov": 3,
+    "markov_lab": "STRONG",
+    "dif_ema": -10.19,
+    "calidad": "BUENO",
+    "upside": 15.5
+   },
+   "buffett": 60,
+   "mos": -61.3,
+   "rs_rank": 24,
+   "asof": "2026-10-20",
+   "price": 28.58,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 28.77,
+   "zones": {
+    "entry": 28.3,
+    "sl": 26.4,
+    "tp": 32.09,
+    "tp1": null,
+    "tp2": 32.09,
+    "atr": 0.9487
    }
   }
  ],
  "watchlist": [
   {
-   "ticker": "AMG",
+   "ticker": "PARR",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -109,27 +183,11 @@
    ]
   },
   {
-   "ticker": "PBYI",
+   "ticker": "KRT",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: liquidez 3.3 M USD/día < 5"
-   ]
-  },
-  {
-   "ticker": "MSFT",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Technology"
-   ]
-  },
-  {
-   "ticker": "PLTR",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Technology"
+    "Calidad"
    ]
   },
   {
@@ -149,7 +207,39 @@
    ]
   },
   {
-   "ticker": "TT",
+   "ticker": "FAST",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Industrials"
+   ]
+  },
+  {
+   "ticker": "NDSN",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: ya tiene una alerta abierta"
+   ]
+  },
+  {
+   "ticker": "DAVE",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "FFIV",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Technology"
+   ]
+  },
+  {
+   "ticker": "SCSC",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -165,7 +255,7 @@
    ]
   },
   {
-   "ticker": "ACHC",
+   "ticker": "CORT",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -173,7 +263,63 @@
    ]
   },
   {
-   "ticker": "BUFF",
+   "ticker": "TECH",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "DVYE",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: liquidez 4.2 M USD/día < 5"
+   ]
+  },
+  {
+   "ticker": "RDWR",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "GSLC",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "SPYI",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "GPIX",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "RECS",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "BALT",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -189,6 +335,14 @@
    ]
   },
   {
+   "ticker": "DUHP",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
    "ticker": "ZS",
    "setup": "RETROCESO",
    "origen": "Universo principal",
@@ -197,89 +351,25 @@
    ]
   },
   {
-   "ticker": "VSTS",
+   "ticker": "IBIT",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "VIST",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
+   "ticker": "ILMN",
+   "setup": "RETROCESO",
+   "origen": "Listado",
    "failed": [
-    "Tendencia"
+    "Calidad"
    ]
   },
   {
-   "ticker": "CBOE",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "NUE",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "FFIV",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Technology"
-   ]
-  },
-  {
-   "ticker": "NOW",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Technology"
-   ]
-  },
-  {
-   "ticker": "EWW",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "EWZ",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "FEGE",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "FDL",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "CNNE",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
+   "ticker": "CTVA",
+   "setup": "RETROCESO",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
@@ -287,8 +377,8 @@
  ],
  "universo": {
   "snapshot": 1131,
-  "listado_candidatos": 0,
-  "listado_setups": 47,
+  "listado_candidatos": 75,
+  "listado_setups": 295,
   "listado_cobertura_pct": 100.0
  }
 }
