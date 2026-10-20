@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-10-16 19:22:30 (Hora Colombia)",
+ "checked_at": "2026-10-19 19:26:16 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 763.25,
-  "spy_sma200": 721.88,
-  "spy_vs_sma200_pct": 5.73,
-  "drawdown_52w_pct": -2.03,
-  "realized_vol_20d": 10.5
+  "spy_price": 766.48,
+  "spy_sma200": 722.33,
+  "spy_vs_sma200_pct": 6.11,
+  "drawdown_52w_pct": -1.62,
+  "realized_vol_20d": 8.9
  },
  "confirmed": 1,
- "session_ref": "2026-10-16",
+ "session_ref": "2026-10-19",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -25,41 +25,41 @@
  },
  "signals": [
   {
-   "ticker": "A",
-   "name": "Agilent Technologies, ",
-   "sector": "Healthcare",
-   "setup": "IMPULSO",
+   "ticker": "DBMF",
+   "name": "iMGP DBi Managed Futur",
+   "sector": "ETF",
+   "setup": "RETROCESO",
    "origen": "Universo principal",
-   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
-   "composite": 69,
-   "prob": 34.1,
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 10,
+   "prob": 33.6,
    "stats": {
     "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-18 → 2026-10-16)",
-    "n": 7590,
-    "p_tp": 34.1,
+    "fuente": "backtest del protocolo (2022-08-22 → 2026-10-19)",
+    "n": 10432,
+    "p_tp": 33.6,
     "p_tp_ic95": [
-     33.0,
-     35.1
+     32.7,
+     34.5
     ],
-    "acierto": 38.2,
-    "ret_medio": 0.369,
-    "ret_medio_oos": 0.829,
+    "acierto": 38.3,
+    "ret_medio": 0.3,
+    "ret_medio_oos": 0.38,
     "dias_medios": 15.0,
     "le_gana_al_azar": false,
     "en_vivo": {
-     "n": 3,
-     "acierto": 0.0,
-     "p_tp": 0.0,
-     "expectativa_pct": -5.75
+     "n": 8,
+     "acierto": 25.0,
+     "p_tp": 25.0,
+     "expectativa_pct": 0.38
     }
    },
    "sizing": {
-    "stop_pct": 5.37,
-    "objetivo_pct": 10.74,
+    "stop_pct": 2.34,
+    "objetivo_pct": 4.72,
     "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 18.6,
-    "acciones_por_10k": 10
+    "posicion_pct_capital": 42.7,
+    "acciones_por_10k": 129
    },
    "reglas": {
     "bracket": "ALBA 2/4",
@@ -67,49 +67,113 @@
     "expiry": 45
    },
    "fg": {
-    "earliness": 50,
-    "earliness_lab": "MADURO",
-    "not_temprano": true,
-    "fase": "Señal activa",
-    "markov": 3,
-    "markov_lab": "STRONG",
-    "dif_ema": -27.51,
-    "calidad": "REGULAR",
-    "upside": 10.0
+    "earliness": 85,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Acumulación",
+    "markov": 2,
+    "markov_lab": "BULLISH",
+    "dif_ema": -6.87,
+    "calidad": "DÉBIL",
+    "upside": 3.5
    },
-   "buffett": 85,
-   "mos": -68.4,
-   "rs_rank": 97,
-   "asof": "2026-10-16",
-   "price": 172.97,
+   "buffett": 0,
+   "mos": null,
+   "rs_rank": 82,
+   "asof": "2026-10-19",
+   "price": 32.97,
    "live": null,
    "status": {
     "icon": "❔",
     "label": "SIN COTIZACIÓN",
     "note": "no se pudo validar el precio actual — verifica antes de operar"
    },
-   "max_chase": 173.89,
+   "max_chase": 33.04,
    "zones": {
-    "entry": 171.59,
-    "sl": 162.37,
-    "tp": 190.02,
+    "entry": 32.85,
+    "sl": 32.08,
+    "tp": 34.4,
     "tp1": null,
-    "tp2": 190.02,
-    "atr": 4.6073
+    "tp2": 34.4,
+    "atr": 0.386
    }
   }
  ],
  "watchlist": [
   {
-   "ticker": "FAST",
+   "ticker": "AMG",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: tope de 2 posiciones en Industrials"
+    "Calidad"
    ]
   },
   {
-   "ticker": "CMDY",
+   "ticker": "PBYI",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: liquidez 3.3 M USD/día < 5"
+   ]
+  },
+  {
+   "ticker": "MSFT",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Technology"
+   ]
+  },
+  {
+   "ticker": "PLTR",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Technology"
+   ]
+  },
+  {
+   "ticker": "QLYS",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: ya tiene una alerta abierta"
+   ]
+  },
+  {
+   "ticker": "ZBRA",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Technology"
+   ]
+  },
+  {
+   "ticker": "TT",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CVLT",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "ACHC",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BUFF",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -117,15 +181,47 @@
    ]
   },
   {
-   "ticker": "EXPD",
-   "setup": "IMPULSO",
+   "ticker": "TENB",
+   "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: tope de 2 posiciones en Industrials"
+    "Calidad"
    ]
   },
   {
-   "ticker": "BAP",
+   "ticker": "ZS",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "VSTS",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CBOE",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "AAPL",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "LLY",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
@@ -141,31 +237,15 @@
    ]
   },
   {
-   "ticker": "ECL",
+   "ticker": "FFIV",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
-    "Calidad"
+    "Riesgo: tope de 2 posiciones en Technology"
    ]
   },
   {
-   "ticker": "MANH",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "BIIB",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "FEGE",
+   "ticker": "DVY",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
@@ -176,166 +256,6 @@
    "ticker": "CNNE",
    "setup": "IMPULSO",
    "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "SPNT",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "FTGC",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "NPK",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "EGBN",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "RNW",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "UGA",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "PK",
-   "setup": "RUPTURA",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "BSM",
-   "setup": "RUPTURA",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "EXPD",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Industrials"
-   ]
-  },
-  {
-   "ticker": "BAP",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "ECL",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "MANH",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "BIIB",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "FEGE",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "CNNE",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "DHR",
-   "setup": "IMPULSO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "CDW",
-   "setup": "IMPULSO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "ZETA",
-   "setup": "IMPULSO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "MEDP",
-   "setup": "IMPULSO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "CLH",
-   "setup": "IMPULSO",
-   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
@@ -344,7 +264,7 @@
  "universo": {
   "snapshot": 1131,
   "listado_candidatos": 0,
-  "listado_setups": 9,
+  "listado_setups": 49,
   "listado_cobertura_pct": 100.0
  }
 }
