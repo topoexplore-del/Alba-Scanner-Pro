@@ -1,13 +1,13 @@
 {
- "checked_at": "2026-10-19 19:26:16 (Hora Colombia)",
+ "checked_at": "2026-10-19 20:05:25 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 766.48,
+  "spy_price": 766.54,
   "spy_sma200": 722.33,
-  "spy_vs_sma200_pct": 6.11,
-  "drawdown_52w_pct": -1.62,
+  "spy_vs_sma200_pct": 6.12,
+  "drawdown_52w_pct": -1.61,
   "realized_vol_20d": 8.9
  },
  "confirmed": 1,
@@ -36,15 +36,15 @@
    "stats": {
     "calibrada": true,
     "fuente": "backtest del protocolo (2022-08-22 → 2026-10-19)",
-    "n": 10432,
+    "n": 10433,
     "p_tp": 33.6,
     "p_tp_ic95": [
      32.7,
      34.5
     ],
     "acierto": 38.3,
-    "ret_medio": 0.3,
-    "ret_medio_oos": 0.38,
+    "ret_medio": 0.298,
+    "ret_medio_oos": 0.379,
     "dias_medios": 15.0,
     "le_gana_al_azar": false,
     "en_vivo": {
@@ -205,7 +205,7 @@
    ]
   },
   {
-   "ticker": "CBOE",
+   "ticker": "VIST",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
@@ -213,19 +213,11 @@
    ]
   },
   {
-   "ticker": "AAPL",
+   "ticker": "CBOE",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "LLY",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
+    "Tendencia"
    ]
   },
   {
@@ -245,7 +237,39 @@
    ]
   },
   {
-   "ticker": "DVY",
+   "ticker": "NOW",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Technology"
+   ]
+  },
+  {
+   "ticker": "EWW",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "EWZ",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "FEGE",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "FDL",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
@@ -264,7 +288,7 @@
  "universo": {
   "snapshot": 1131,
   "listado_candidatos": 0,
-  "listado_setups": 49,
+  "listado_setups": 47,
   "listado_cobertura_pct": 100.0
  }
 }
