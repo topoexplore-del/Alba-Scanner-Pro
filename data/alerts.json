@@ -1,13 +1,13 @@
 {
- "checked_at": "2026-10-21 19:05:52 (Hora Colombia)",
+ "checked_at": "2026-10-21 20:26:53 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 773.09,
+  "spy_price": 773.13,
   "spy_sma200": 723.24,
-  "spy_vs_sma200_pct": 6.89,
-  "drawdown_52w_pct": -0.77,
+  "spy_vs_sma200_pct": 6.9,
+  "drawdown_52w_pct": -0.76,
   "realized_vol_20d": 8.8
  },
  "confirmed": 0,
@@ -218,7 +218,7 @@
    ]
   },
   {
-   "ticker": "QDPL",
+   "ticker": "RECS",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -228,8 +228,8 @@
  ],
  "universo": {
   "snapshot": 1131,
-  "listado_candidatos": 59,
-  "listado_setups": 318,
-  "listado_cobertura_pct": 100.0
+  "listado_candidatos": 12,
+  "listado_setups": 134,
+  "listado_cobertura_pct": 77.2
  }
 }
