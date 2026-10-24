@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-23 18:51:47 (Hora Colombia)",
+ "checked_at": "2026-10-23 19:36:26 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
@@ -10,7 +10,7 @@
   "drawdown_52w_pct": -2.45,
   "realized_vol_20d": 9.8
  },
- "confirmed": 4,
+ "confirmed": 5,
  "session_ref": "2026-10-23",
  "reglas": {
   "bracket": "ALBA 2/4",
@@ -36,14 +36,14 @@
    "stats": {
     "calibrada": true,
     "fuente": "backtest del protocolo (2022-08-25 → 2026-10-23)",
-    "n": 10447,
+    "n": 10443,
     "p_tp": 33.7,
     "p_tp_ic95": [
      32.8,
      34.6
     ],
-    "acierto": 38.4,
-    "ret_medio": 0.316,
+    "acierto": 38.3,
+    "ret_medio": 0.314,
     "ret_medio_oos": 0.401,
     "dias_medios": 15.0,
     "le_gana_al_azar": false,
@@ -79,7 +79,7 @@
    },
    "buffett": 65,
    "mos": -62.1,
-   "rs_rank": 85,
+   "rs_rank": 84,
    "asof": "2026-10-23",
    "price": 161.59,
    "live": null,
@@ -95,7 +95,7 @@
     "tp": 177.97,
     "tp1": null,
     "tp2": 177.97,
-    "atr": 4.4274
+    "atr": 4.4281
    }
   },
   {
@@ -110,14 +110,14 @@
    "stats": {
     "calibrada": true,
     "fuente": "backtest del protocolo (2022-08-25 → 2026-10-23)",
-    "n": 10447,
+    "n": 10443,
     "p_tp": 33.7,
     "p_tp_ic95": [
      32.8,
      34.6
     ],
-    "acierto": 38.4,
-    "ret_medio": 0.316,
+    "acierto": 38.3,
+    "ret_medio": 0.314,
     "ret_medio_oos": 0.401,
     "dias_medios": 15.0,
     "le_gana_al_azar": false,
@@ -184,14 +184,14 @@
    "stats": {
     "calibrada": true,
     "fuente": "backtest del protocolo (2022-08-25 → 2026-10-23)",
-    "n": 10447,
+    "n": 10443,
     "p_tp": 33.7,
     "p_tp_ic95": [
      32.8,
      34.6
     ],
-    "acierto": 38.4,
-    "ret_medio": 0.316,
+    "acierto": 38.3,
+    "ret_medio": 0.314,
     "ret_medio_oos": 0.401,
     "dias_medios": 15.0,
     "le_gana_al_azar": false,
@@ -254,20 +254,20 @@
    "origen": "Universo principal",
    "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
    "composite": 85,
-   "prob": 34.2,
+   "prob": 34.1,
    "stats": {
     "calibrada": true,
     "fuente": "backtest del protocolo (2022-08-25 → 2026-10-23)",
     "n": 7581,
-    "p_tp": 34.2,
+    "p_tp": 34.1,
     "p_tp_ic95": [
      33.1,
      35.2
     ],
     "acierto": 38.3,
-    "ret_medio": 0.388,
-    "ret_medio_oos": 0.879,
-    "dias_medios": 15.0,
+    "ret_medio": 0.385,
+    "ret_medio_oos": 0.873,
+    "dias_medios": 15.1,
     "le_gana_al_azar": false,
     "en_vivo": {
      "n": 3,
@@ -277,8 +277,8 @@
     }
    },
    "sizing": {
-    "stop_pct": 10.94,
-    "objetivo_pct": 21.87,
+    "stop_pct": 10.95,
+    "objetivo_pct": 21.9,
     "riesgo_pct_capital": 1.0,
     "posicion_pct_capital": 9.1,
     "acciones_por_10k": 7
@@ -295,29 +295,103 @@
     "fase": "Señal máxima",
     "markov": 3,
     "markov_lab": "STRONG",
-    "dif_ema": -14.64,
+    "dif_ema": -14.63,
     "calidad": "EXCELENTE",
-    "upside": 21.9
+    "upside": 22.0
    },
    "buffett": 85,
    "mos": -79.8,
    "rs_rank": 13,
    "asof": "2026-10-23",
-   "price": 132.12,
+   "price": 132.01,
    "live": null,
    "status": {
     "icon": "❔",
     "label": "SIN COTIZACIÓN",
     "note": "no se pudo validar el precio actual — verifica antes de operar"
    },
-   "max_chase": 133.54,
+   "max_chase": 133.43,
    "zones": {
-    "entry": 129.99,
-    "sl": 115.77,
-    "tp": 158.42,
+    "entry": 129.88,
+    "sl": 115.66,
+    "tp": 158.32,
     "tp1": null,
-    "tp2": 158.42,
+    "tp2": 158.32,
     "atr": 7.1088
+   }
+  },
+  {
+   "ticker": "EXPD",
+   "name": "Expeditors Internation",
+   "sector": "Industrials",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
+   "composite": 85,
+   "prob": 34.1,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-08-25 → 2026-10-23)",
+    "n": 7581,
+    "p_tp": 34.1,
+    "p_tp_ic95": [
+     33.1,
+     35.2
+    ],
+    "acierto": 38.3,
+    "ret_medio": 0.385,
+    "ret_medio_oos": 0.873,
+    "dias_medios": 15.1,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 3,
+     "acierto": 0.0,
+     "p_tp": 0.0,
+     "expectativa_pct": -5.75
+    }
+   },
+   "sizing": {
+    "stop_pct": 4.0,
+    "objetivo_pct": 8.01,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 25.0,
+    "acciones_por_10k": 12
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 90,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Señal máxima",
+    "markov": 3,
+    "markov_lab": "STRONG",
+    "dif_ema": -17.1,
+    "calidad": "EXCELENTE",
+    "upside": 11.3
+   },
+   "buffett": 50,
+   "mos": -74.4,
+   "rs_rank": 89,
+   "asof": "2026-10-23",
+   "price": 196.26,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 197.04,
+   "zones": {
+    "entry": 195.09,
+    "sl": 187.28,
+    "tp": 210.71,
+    "tp1": null,
+    "tp2": 210.71,
+    "atr": 3.9048
    }
   }
  ],
@@ -347,142 +421,6 @@
    ]
   },
   {
-   "ticker": "CVE",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "FRO",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "BWIN",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "KNTK",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "TS",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "UUP",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "BCI",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "MEOH",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "SXC",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "KMLM",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "UGA",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "GPRK",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "MTUS",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "LXFR",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "BSM",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "CANE",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "SVOL",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
    "ticker": "CMDY",
    "setup": "RETROCESO",
    "origen": "Universo principal",
@@ -491,31 +429,151 @@
    ]
   },
   {
-   "ticker": "AMTB",
+   "ticker": "TRGP",
    "setup": "RUPTURA",
-   "origen": "Listado",
+   "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "TMP",
+   "ticker": "DFAR",
    "setup": "RUPTURA",
-   "origen": "Listado",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "AIZ",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "SDCI",
-   "setup": "RUPTURA",
-   "origen": "Listado",
+   "ticker": "DGX",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "HAL",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "FFIV",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: earnings en 4d"
+   ]
+  },
+  {
+   "ticker": "MDLZ",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "AAPL",
+   "ticker": "CB",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "MO",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BLK",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "DFAT",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "EWZ",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "PANW",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "SCHH",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "ICF",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "VNQ",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "CIBR",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: ya tiene una alerta abierta"
+   ]
+  },
+  {
+   "ticker": "HACK",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "VSTS",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
@@ -525,8 +583,8 @@
  ],
  "universo": {
   "snapshot": 1131,
-  "listado_candidatos": 42,
-  "listado_setups": 175,
+  "listado_candidatos": 0,
+  "listado_setups": 16,
   "listado_cobertura_pct": 100.0
  }
 }
