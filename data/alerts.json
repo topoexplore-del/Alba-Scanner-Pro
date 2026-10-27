@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-10-23 19:36:26 (Hora Colombia)",
+ "checked_at": "2026-10-26 19:28:34 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 759.97,
-  "spy_sma200": 724.0,
-  "spy_vs_sma200_pct": 4.97,
-  "drawdown_52w_pct": -2.45,
+  "spy_price": 765.37,
+  "spy_sma200": 724.41,
+  "spy_vs_sma200_pct": 5.65,
+  "drawdown_52w_pct": -1.76,
   "realized_vol_20d": 9.8
  },
- "confirmed": 5,
- "session_ref": "2026-10-23",
+ "confirmed": 1,
+ "session_ref": "2026-10-26",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -25,248 +25,26 @@
  },
  "signals": [
   {
-   "ticker": "EMR",
-   "name": "Emerson Electric Compa",
-   "sector": "Industrials",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
-   "composite": 60,
-   "prob": 33.7,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-25 → 2026-10-23)",
-    "n": 10443,
-    "p_tp": 33.7,
-    "p_tp_ic95": [
-     32.8,
-     34.6
-    ],
-    "acierto": 38.3,
-    "ret_medio": 0.314,
-    "ret_medio_oos": 0.401,
-    "dias_medios": 15.0,
-    "le_gana_al_azar": false,
-    "en_vivo": {
-     "n": 11,
-     "acierto": 18.2,
-     "p_tp": 18.2,
-     "expectativa_pct": -1.21
-    }
-   },
-   "sizing": {
-    "stop_pct": 5.52,
-    "objetivo_pct": 11.05,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 18.1,
-    "acciones_por_10k": 11
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 90,
-    "earliness_lab": "TEMPRANO",
-    "not_temprano": false,
-    "fase": "Espera",
-    "markov": 2,
-    "markov_lab": "BULLISH",
-    "dif_ema": -10.21,
-    "calidad": "REGULAR",
-    "upside": 5.0
-   },
-   "buffett": 65,
-   "mos": -62.1,
-   "rs_rank": 84,
-   "asof": "2026-10-23",
-   "price": 161.59,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 162.47,
-   "zones": {
-    "entry": 160.26,
-    "sl": 151.41,
-    "tp": 177.97,
-    "tp1": null,
-    "tp2": 177.97,
-    "atr": 4.4281
-   }
-  },
-  {
-   "ticker": "STLD",
-   "name": "Steel Dynamics, Inc.",
-   "sector": "Basic Materials",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
-   "composite": 86,
-   "prob": 33.7,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-25 → 2026-10-23)",
-    "n": 10443,
-    "p_tp": 33.7,
-    "p_tp_ic95": [
-     32.8,
-     34.6
-    ],
-    "acierto": 38.3,
-    "ret_medio": 0.314,
-    "ret_medio_oos": 0.401,
-    "dias_medios": 15.0,
-    "le_gana_al_azar": false,
-    "en_vivo": {
-     "n": 11,
-     "acierto": 18.2,
-     "p_tp": 18.2,
-     "expectativa_pct": -1.21
-    }
-   },
-   "sizing": {
-    "stop_pct": 6.93,
-    "objetivo_pct": 13.87,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 14.4,
-    "acciones_por_10k": 6
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 100,
-    "earliness_lab": "TEMPRANO",
-    "not_temprano": false,
-    "fase": "Espera",
-    "markov": 2,
-    "markov_lab": "BULLISH",
-    "dif_ema": -7.36,
-    "calidad": "EXCELENTE",
-    "upside": 10.3
-   },
-   "buffett": 65,
-   "mos": -40.0,
-   "rs_rank": 40,
-   "asof": "2026-10-23",
-   "price": 241.53,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 243.18,
-   "zones": {
-    "entry": 239.04,
-    "sl": 222.47,
-    "tp": 272.19,
-    "tp1": null,
-    "tp2": 272.19,
-    "atr": 8.2859
-   }
-  },
-  {
-   "ticker": "EC",
-   "name": "Ecopetrol S.A.",
+   "ticker": "DVN",
+   "name": "Devon Energy Corporati",
    "sector": "Energy",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
-   "composite": 91,
-   "prob": 33.7,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-25 → 2026-10-23)",
-    "n": 10443,
-    "p_tp": 33.7,
-    "p_tp_ic95": [
-     32.8,
-     34.6
-    ],
-    "acierto": 38.3,
-    "ret_medio": 0.314,
-    "ret_medio_oos": 0.401,
-    "dias_medios": 15.0,
-    "le_gana_al_azar": false,
-    "en_vivo": {
-     "n": 11,
-     "acierto": 18.2,
-     "p_tp": 18.2,
-     "expectativa_pct": -1.21
-    }
-   },
-   "sizing": {
-    "stop_pct": 6.18,
-    "objetivo_pct": 12.24,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 16.2,
-    "acciones_por_10k": 91
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 75,
-    "earliness_lab": "TEMPRANO",
-    "not_temprano": false,
-    "fase": "Espera",
-    "markov": 2,
-    "markov_lab": "BULLISH",
-    "dif_ema": -17.26,
-    "calidad": "EXCELENTE",
-    "upside": 12.4
-   },
-   "buffett": 60,
-   "mos": 300.0,
-   "rs_rank": 88,
-   "asof": "2026-10-23",
-   "price": 17.8,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 17.91,
-   "zones": {
-    "entry": 17.64,
-    "sl": 16.55,
-    "tp": 19.8,
-    "tp1": null,
-    "tp2": 19.8,
-    "atr": 0.5416
-   }
-  },
-  {
-   "ticker": "SEZL",
-   "name": "Sezzle Inc.",
-   "sector": "Financial Services",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
-   "composite": 85,
-   "prob": 34.1,
+   "composite": 81,
+   "prob": 34.2,
    "stats": {
     "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-25 → 2026-10-23)",
-    "n": 7581,
-    "p_tp": 34.1,
+    "fuente": "backtest del protocolo (2022-08-29 → 2026-10-26)",
+    "n": 7590,
+    "p_tp": 34.2,
     "p_tp_ic95": [
      33.1,
      35.2
     ],
     "acierto": 38.3,
-    "ret_medio": 0.385,
-    "ret_medio_oos": 0.873,
+    "ret_medio": 0.39,
+    "ret_medio_oos": 0.904,
     "dias_medios": 15.1,
     "le_gana_al_azar": false,
     "en_vivo": {
@@ -277,11 +55,11 @@
     }
    },
    "sizing": {
-    "stop_pct": 10.95,
-    "objetivo_pct": 21.9,
+    "stop_pct": 5.76,
+    "objetivo_pct": 11.53,
     "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 9.1,
-    "acciones_por_10k": 7
+    "posicion_pct_capital": 17.4,
+    "acciones_por_10k": 33
    },
    "reglas": {
     "bracket": "ALBA 2/4",
@@ -289,115 +67,41 @@
     "expiry": 45
    },
    "fg": {
-    "earliness": 40,
-    "earliness_lab": "MADURO",
+    "earliness": 65,
+    "earliness_lab": "FRESCO",
     "not_temprano": true,
     "fase": "Señal máxima",
     "markov": 3,
     "markov_lab": "STRONG",
-    "dif_ema": -14.63,
-    "calidad": "EXCELENTE",
-    "upside": 22.0
+    "dif_ema": -8.93,
+    "calidad": "BUENO",
+    "upside": 17.4
    },
-   "buffett": 85,
-   "mos": -79.8,
-   "rs_rank": 13,
-   "asof": "2026-10-23",
-   "price": 132.01,
+   "buffett": 60,
+   "mos": 18.6,
+   "rs_rank": 94,
+   "asof": "2026-10-26",
+   "price": 51.63,
    "live": null,
    "status": {
     "icon": "❔",
     "label": "SIN COTIZACIÓN",
     "note": "no se pudo validar el precio actual — verifica antes de operar"
    },
-   "max_chase": 133.43,
+   "max_chase": 51.93,
    "zones": {
-    "entry": 129.88,
-    "sl": 115.66,
-    "tp": 158.32,
+    "entry": 51.19,
+    "sl": 48.24,
+    "tp": 57.09,
     "tp1": null,
-    "tp2": 158.32,
-    "atr": 7.1088
-   }
-  },
-  {
-   "ticker": "EXPD",
-   "name": "Expeditors Internation",
-   "sector": "Industrials",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
-   "composite": 85,
-   "prob": 34.1,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-25 → 2026-10-23)",
-    "n": 7581,
-    "p_tp": 34.1,
-    "p_tp_ic95": [
-     33.1,
-     35.2
-    ],
-    "acierto": 38.3,
-    "ret_medio": 0.385,
-    "ret_medio_oos": 0.873,
-    "dias_medios": 15.1,
-    "le_gana_al_azar": false,
-    "en_vivo": {
-     "n": 3,
-     "acierto": 0.0,
-     "p_tp": 0.0,
-     "expectativa_pct": -5.75
-    }
-   },
-   "sizing": {
-    "stop_pct": 4.0,
-    "objetivo_pct": 8.01,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 25.0,
-    "acciones_por_10k": 12
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 90,
-    "earliness_lab": "TEMPRANO",
-    "not_temprano": false,
-    "fase": "Señal máxima",
-    "markov": 3,
-    "markov_lab": "STRONG",
-    "dif_ema": -17.1,
-    "calidad": "EXCELENTE",
-    "upside": 11.3
-   },
-   "buffett": 50,
-   "mos": -74.4,
-   "rs_rank": 89,
-   "asof": "2026-10-23",
-   "price": 196.26,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 197.04,
-   "zones": {
-    "entry": 195.09,
-    "sl": 187.28,
-    "tp": 210.71,
-    "tp1": null,
-    "tp2": 210.71,
-    "atr": 3.9048
+    "tp2": 57.09,
+    "atr": 1.4753
    }
   }
  ],
  "watchlist": [
   {
-   "ticker": "CIB",
+   "ticker": "PARR",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -405,96 +109,32 @@
    ]
   },
   {
-   "ticker": "NUE",
+   "ticker": "MSFT",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: earnings en 3d"
+    "Riesgo: earnings en 2d"
    ]
   },
   {
-   "ticker": "DVYE",
+   "ticker": "VLO",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: liquidez 4.5 M USD/día < 5"
+    "Calidad"
    ]
   },
   {
-   "ticker": "CMDY",
+   "ticker": "TMO",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "TRGP",
-   "setup": "RUPTURA",
-   "origen": "Universo principal",
-   "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "DFAR",
-   "setup": "RUPTURA",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "AIZ",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "DGX",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "HAL",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "FFIV",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: earnings en 4d"
-   ]
-  },
-  {
-   "ticker": "MDLZ",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "CB",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "MO",
-   "setup": "IMPULSO",
+   "ticker": "MET",
+   "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
     "Calidad"
@@ -502,10 +142,82 @@
   },
   {
    "ticker": "BLK",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "PM",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BALT",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "JEPI",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "DUHP",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "UL",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
     "Calidad"
+   ]
+  },
+  {
+   "ticker": "FFIV",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: earnings en 1d"
+   ]
+  },
+  {
+   "ticker": "PNTG",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "DDOG",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "EWW",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
    ]
   },
   {
@@ -517,39 +229,47 @@
    ]
   },
   {
-   "ticker": "EWZ",
+   "ticker": "DIA",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
+    "Tendencia"
    ]
   },
   {
-   "ticker": "PANW",
+   "ticker": "EWU",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
-    "Calidad"
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "XLB",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "IJS",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "DFGR",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
    ]
   },
   {
    "ticker": "SCHH",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "ICF",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "VNQ",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
@@ -565,7 +285,7 @@
    ]
   },
   {
-   "ticker": "HACK",
+   "ticker": "IGV",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
@@ -582,9 +302,9 @@
   }
  ],
  "universo": {
-  "snapshot": 1131,
+  "snapshot": 1130,
   "listado_candidatos": 0,
-  "listado_setups": 16,
+  "listado_setups": 68,
   "listado_cobertura_pct": 100.0
  }
 }
