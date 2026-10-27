@@ -1,13 +1,13 @@
 {
- "checked_at": "2026-10-26 19:28:34 (Hora Colombia)",
+ "checked_at": "2026-10-26 20:13:25 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 765.37,
+  "spy_price": 765.22,
   "spy_sma200": 724.41,
-  "spy_vs_sma200_pct": 5.65,
-  "drawdown_52w_pct": -1.76,
+  "spy_vs_sma200_pct": 5.63,
+  "drawdown_52w_pct": -1.78,
   "realized_vol_20d": 9.8
  },
  "confirmed": 1,
@@ -32,19 +32,19 @@
    "origen": "Universo principal",
    "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
    "composite": 81,
-   "prob": 34.2,
+   "prob": 34.1,
    "stats": {
     "calibrada": true,
     "fuente": "backtest del protocolo (2022-08-29 → 2026-10-26)",
-    "n": 7590,
-    "p_tp": 34.2,
+    "n": 7593,
+    "p_tp": 34.1,
     "p_tp_ic95": [
      33.1,
      35.2
     ],
     "acierto": 38.3,
     "ret_medio": 0.39,
-    "ret_medio_oos": 0.904,
+    "ret_medio_oos": 0.901,
     "dias_medios": 15.1,
     "le_gana_al_azar": false,
     "en_vivo": {
@@ -181,6 +181,14 @@
    ]
   },
   {
+   "ticker": "PLTR",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Technology"
+   ]
+  },
+  {
    "ticker": "UL",
    "setup": "IMPULSO",
    "origen": "Universo principal",
@@ -290,14 +298,6 @@
    "origen": "Universo principal",
    "failed": [
     "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "VSTS",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
    ]
   }
  ],
