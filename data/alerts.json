@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-10-26 20:13:25 (Hora Colombia)",
+ "checked_at": "2026-10-27 19:32:47 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 765.22,
-  "spy_sma200": 724.41,
-  "spy_vs_sma200_pct": 5.63,
-  "drawdown_52w_pct": -1.78,
-  "realized_vol_20d": 9.8
+  "spy_price": 769.66,
+  "spy_sma200": 724.81,
+  "spy_vs_sma200_pct": 6.19,
+  "drawdown_52w_pct": -1.21,
+  "realized_vol_20d": 10.0
  },
- "confirmed": 1,
- "session_ref": "2026-10-26",
+ "confirmed": 0,
+ "session_ref": "2026-10-27",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -23,85 +23,26 @@
    "IMPULSO"
   ]
  },
- "signals": [
-  {
-   "ticker": "DVN",
-   "name": "Devon Energy Corporati",
-   "sector": "Energy",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
-   "composite": 81,
-   "prob": 34.1,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-29 → 2026-10-26)",
-    "n": 7593,
-    "p_tp": 34.1,
-    "p_tp_ic95": [
-     33.1,
-     35.2
-    ],
-    "acierto": 38.3,
-    "ret_medio": 0.39,
-    "ret_medio_oos": 0.901,
-    "dias_medios": 15.1,
-    "le_gana_al_azar": false,
-    "en_vivo": {
-     "n": 3,
-     "acierto": 0.0,
-     "p_tp": 0.0,
-     "expectativa_pct": -5.75
-    }
-   },
-   "sizing": {
-    "stop_pct": 5.76,
-    "objetivo_pct": 11.53,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 17.4,
-    "acciones_por_10k": 33
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 65,
-    "earliness_lab": "FRESCO",
-    "not_temprano": true,
-    "fase": "Señal máxima",
-    "markov": 3,
-    "markov_lab": "STRONG",
-    "dif_ema": -8.93,
-    "calidad": "BUENO",
-    "upside": 17.4
-   },
-   "buffett": 60,
-   "mos": 18.6,
-   "rs_rank": 94,
-   "asof": "2026-10-26",
-   "price": 51.63,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 51.93,
-   "zones": {
-    "entry": 51.19,
-    "sl": 48.24,
-    "tp": 57.09,
-    "tp1": null,
-    "tp2": 57.09,
-    "atr": 1.4753
-   }
-  }
- ],
+ "signals": [],
  "watchlist": [
   {
-   "ticker": "PARR",
+   "ticker": "MATX",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Industrials"
+   ]
+  },
+  {
+   "ticker": "AME",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Industrials"
+   ]
+  },
+  {
+   "ticker": "SLF",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -109,15 +50,23 @@
    ]
   },
   {
-   "ticker": "MSFT",
+   "ticker": "JPEF",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: earnings en 2d"
+    "Riesgo: liquidez 4.9 M USD/día < 5"
    ]
   },
   {
-   "ticker": "VLO",
+   "ticker": "SSO",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: ETF apalancado o inverso"
+   ]
+  },
+  {
+   "ticker": "EPC",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -125,35 +74,147 @@
    ]
   },
   {
-   "ticker": "TMO",
+   "ticker": "IALT",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Calidad"
+    "Riesgo: tope de 2 posiciones en ETF"
    ]
   },
   {
-   "ticker": "MET",
+   "ticker": "SPYI",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Calidad"
+    "Riesgo: tope de 2 posiciones en ETF"
    ]
   },
   {
-   "ticker": "BLK",
+   "ticker": "SPY",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Calidad"
+    "Riesgo: tope de 2 posiciones en ETF"
    ]
   },
   {
-   "ticker": "PM",
+   "ticker": "VOO",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Calidad"
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "IVV",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "ESGU",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "DFUS",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "GPIX",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "SPYM",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "SCHX",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "SCHK",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "QDPL",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "VTI",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "GSLC",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "DIVO",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "DCOR",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "SFLR",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "BUFF",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
    ]
   },
   {
@@ -163,148 +224,12 @@
    "failed": [
     "Riesgo: tope de 2 posiciones en ETF"
    ]
-  },
-  {
-   "ticker": "JEPI",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "DUHP",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "PLTR",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Technology"
-   ]
-  },
-  {
-   "ticker": "UL",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "FFIV",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: earnings en 1d"
-   ]
-  },
-  {
-   "ticker": "PNTG",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "DDOG",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "EWW",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "DFAT",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "DIA",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "EWU",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "XLB",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "IJS",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "DFGR",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "SCHH",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "CIBR",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: ya tiene una alerta abierta"
-   ]
-  },
-  {
-   "ticker": "IGV",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
   }
  ],
  "universo": {
-  "snapshot": 1130,
-  "listado_candidatos": 0,
-  "listado_setups": 68,
+  "snapshot": 1131,
+  "listado_candidatos": 6,
+  "listado_setups": 149,
   "listado_cobertura_pct": 100.0
  }
 }
