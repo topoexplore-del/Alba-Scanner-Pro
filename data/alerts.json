@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-10-27 19:59:33 (Hora Colombia)",
+ "checked_at": "2026-10-28 19:45:01 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 769.72,
-  "spy_sma200": 724.81,
-  "spy_vs_sma200_pct": 6.2,
-  "drawdown_52w_pct": -1.2,
+  "spy_price": 772.35,
+  "spy_sma200": 725.23,
+  "spy_vs_sma200_pct": 6.5,
+  "drawdown_52w_pct": -0.87,
   "realized_vol_20d": 10.0
  },
- "confirmed": 0,
- "session_ref": "2026-10-27",
+ "confirmed": 2,
+ "session_ref": "2026-10-28",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -23,26 +23,159 @@
    "IMPULSO"
   ]
  },
- "signals": [],
+ "signals": [
+  {
+   "ticker": "MNST",
+   "name": "Monster Beverage Corpo",
+   "sector": "Consumer Defensive",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 74,
+   "prob": 33.8,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-08-31 → 2026-10-28)",
+    "n": 10416,
+    "p_tp": 33.8,
+    "p_tp_ic95": [
+     32.9,
+     34.7
+    ],
+    "acierto": 38.5,
+    "ret_medio": 0.329,
+    "ret_medio_oos": 0.455,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 13,
+     "acierto": 23.1,
+     "p_tp": 23.1,
+     "expectativa_pct": -0.09
+    }
+   },
+   "sizing": {
+    "stop_pct": 4.48,
+    "objetivo_pct": 8.97,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 22.3,
+    "acciones_por_10k": 49
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 85,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Acumulación",
+    "markov": 2,
+    "markov_lab": "BULLISH",
+    "dif_ema": -4.24,
+    "calidad": "BUENO",
+    "upside": 3.5
+   },
+   "buffett": 85,
+   "mos": -76.4,
+   "rs_rank": 29,
+   "asof": "2026-10-28",
+   "price": 45.66,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 45.86,
+   "zones": {
+    "entry": 45.35,
+    "sl": 43.32,
+    "tp": 49.42,
+    "tp1": null,
+    "tp2": 49.42,
+    "atr": 1.0175
+   }
+  },
+  {
+   "ticker": "KOF",
+   "name": "Coca Cola Femsa S.A.B.",
+   "sector": "Consumer Defensive",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 59,
+   "prob": 33.8,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-08-31 → 2026-10-28)",
+    "n": 10416,
+    "p_tp": 33.8,
+    "p_tp_ic95": [
+     32.9,
+     34.7
+    ],
+    "acierto": 38.5,
+    "ret_medio": 0.329,
+    "ret_medio_oos": 0.455,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 13,
+     "acierto": 23.1,
+     "p_tp": 23.1,
+     "expectativa_pct": -0.09
+    }
+   },
+   "sizing": {
+    "stop_pct": 5.44,
+    "objetivo_pct": 10.89,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 18.4,
+    "acciones_por_10k": 16
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 85,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Acumulación",
+    "markov": 2,
+    "markov_lab": "BULLISH",
+    "dif_ema": -8.19,
+    "calidad": "DÉBIL",
+    "upside": 4.9
+   },
+   "buffett": 60,
+   "mos": -76.9,
+   "rs_rank": 82,
+   "asof": "2026-10-28",
+   "price": 115.21,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 115.84,
+   "zones": {
+    "entry": 114.28,
+    "sl": 108.06,
+    "tp": 126.72,
+    "tp1": null,
+    "tp2": 126.72,
+    "atr": 3.1101
+   }
+  }
+ ],
  "watchlist": [
   {
-   "ticker": "MATX",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Industrials"
-   ]
-  },
-  {
-   "ticker": "AME",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Industrials"
-   ]
-  },
-  {
-   "ticker": "SLF",
+   "ticker": "RELY",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -50,11 +183,51 @@
    ]
   },
   {
-   "ticker": "JPEF",
+   "ticker": "SEZL",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: liquidez 4.9 M USD/día < 5"
+    "Riesgo: ya tiene una alerta abierta"
+   ]
+  },
+  {
+   "ticker": "CRM",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "PGNY",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: ya tiene una alerta abierta"
+   ]
+  },
+  {
+   "ticker": "NDSN",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Industrials"
+   ]
+  },
+  {
+   "ticker": "KO",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "AIG",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
    ]
   },
   {
@@ -63,22 +236,6 @@
    "origen": "Universo principal",
    "failed": [
     "Riesgo: ETF apalancado o inverso"
-   ]
-  },
-  {
-   "ticker": "EPC",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "IALT",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
    ]
   },
   {
@@ -114,6 +271,22 @@
    ]
   },
   {
+   "ticker": "SCHX",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "GPIX",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
    "ticker": "ESGU",
    "setup": "RETROCESO",
    "origen": "Universo principal",
@@ -130,7 +303,7 @@
    ]
   },
   {
-   "ticker": "SCHX",
+   "ticker": "ESGV",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -138,23 +311,7 @@
    ]
   },
   {
-   "ticker": "DFUS",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "GPIX",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "SCHK",
+   "ticker": "LRGF",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -170,7 +327,7 @@
    ]
   },
   {
-   "ticker": "VTI",
+   "ticker": "DFUS",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -186,39 +343,31 @@
    ]
   },
   {
+   "ticker": "SCHK",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "VTI",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "RWL",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
    "ticker": "DIVO",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "DCOR",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "SFLR",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "BUFF",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "BALT",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -228,8 +377,8 @@
  ],
  "universo": {
   "snapshot": 1131,
-  "listado_candidatos": 6,
-  "listado_setups": 148,
+  "listado_candidatos": 5,
+  "listado_setups": 121,
   "listado_cobertura_pct": 100.0
  }
 }
