@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-10-28 19:45:01 (Hora Colombia)",
+ "checked_at": "2026-10-29 19:31:51 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 772.35,
-  "spy_sma200": 725.23,
-  "spy_vs_sma200_pct": 6.5,
-  "drawdown_52w_pct": -0.87,
-  "realized_vol_20d": 10.0
+  "spy_price": 769.36,
+  "spy_sma200": 725.63,
+  "spy_vs_sma200_pct": 6.03,
+  "drawdown_52w_pct": -1.25,
+  "realized_vol_20d": 10.1
  },
- "confirmed": 2,
- "session_ref": "2026-10-28",
+ "confirmed": 1,
+ "session_ref": "2026-10-29",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -25,41 +25,41 @@
  },
  "signals": [
   {
-   "ticker": "MNST",
-   "name": "Monster Beverage Corpo",
-   "sector": "Consumer Defensive",
-   "setup": "RETROCESO",
+   "ticker": "MSFT",
+   "name": "Microsoft Corporation",
+   "sector": "Technology",
+   "setup": "IMPULSO",
    "origen": "Universo principal",
-   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
-   "composite": 74,
-   "prob": 33.8,
+   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
+   "composite": 85,
+   "prob": 34.2,
    "stats": {
     "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-31 → 2026-10-28)",
-    "n": 10416,
-    "p_tp": 33.8,
+    "fuente": "backtest del protocolo (2022-09-01 → 2026-10-29)",
+    "n": 7563,
+    "p_tp": 34.2,
     "p_tp_ic95": [
-     32.9,
-     34.7
+     33.2,
+     35.3
     ],
     "acierto": 38.5,
-    "ret_medio": 0.329,
-    "ret_medio_oos": 0.455,
+    "ret_medio": 0.398,
+    "ret_medio_oos": 0.937,
     "dias_medios": 15.0,
     "le_gana_al_azar": false,
     "en_vivo": {
-     "n": 13,
-     "acierto": 23.1,
-     "p_tp": 23.1,
-     "expectativa_pct": -0.09
+     "n": 3,
+     "acierto": 0.0,
+     "p_tp": 0.0,
+     "expectativa_pct": -5.75
     }
    },
    "sizing": {
-    "stop_pct": 4.48,
-    "objetivo_pct": 8.97,
+    "stop_pct": 4.39,
+    "objetivo_pct": 8.77,
     "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 22.3,
-    "acciones_por_10k": 49
+    "posicion_pct_capital": 22.8,
+    "acciones_por_10k": 4
    },
    "reglas": {
     "bracket": "ALBA 2/4",
@@ -67,115 +67,49 @@
     "expiry": 45
    },
    "fg": {
-    "earliness": 85,
+    "earliness": 90,
     "earliness_lab": "TEMPRANO",
     "not_temprano": false,
-    "fase": "Acumulación",
-    "markov": 2,
-    "markov_lab": "BULLISH",
-    "dif_ema": -4.24,
-    "calidad": "BUENO",
-    "upside": 3.5
+    "fase": "Señal máxima",
+    "markov": 3,
+    "markov_lab": "STRONG",
+    "dif_ema": -21.58,
+    "calidad": "EXCELENTE",
+    "upside": 11.9
    },
    "buffett": 85,
-   "mos": -76.4,
-   "rs_rank": 29,
-   "asof": "2026-10-28",
-   "price": 45.66,
+   "mos": -70.8,
+   "rs_rank": 90,
+   "asof": "2026-10-29",
+   "price": 530.43,
    "live": null,
    "status": {
     "icon": "❔",
     "label": "SIN COTIZACIÓN",
     "note": "no se pudo validar el precio actual — verifica antes de operar"
    },
-   "max_chase": 45.86,
+   "max_chase": 532.74,
    "zones": {
-    "entry": 45.35,
-    "sl": 43.32,
-    "tp": 49.42,
+    "entry": 526.96,
+    "sl": 503.85,
+    "tp": 573.18,
     "tp1": null,
-    "tp2": 49.42,
-    "atr": 1.0175
-   }
-  },
-  {
-   "ticker": "KOF",
-   "name": "Coca Cola Femsa S.A.B.",
-   "sector": "Consumer Defensive",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
-   "composite": 59,
-   "prob": 33.8,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-08-31 → 2026-10-28)",
-    "n": 10416,
-    "p_tp": 33.8,
-    "p_tp_ic95": [
-     32.9,
-     34.7
-    ],
-    "acierto": 38.5,
-    "ret_medio": 0.329,
-    "ret_medio_oos": 0.455,
-    "dias_medios": 15.0,
-    "le_gana_al_azar": false,
-    "en_vivo": {
-     "n": 13,
-     "acierto": 23.1,
-     "p_tp": 23.1,
-     "expectativa_pct": -0.09
-    }
-   },
-   "sizing": {
-    "stop_pct": 5.44,
-    "objetivo_pct": 10.89,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 18.4,
-    "acciones_por_10k": 16
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 85,
-    "earliness_lab": "TEMPRANO",
-    "not_temprano": false,
-    "fase": "Acumulación",
-    "markov": 2,
-    "markov_lab": "BULLISH",
-    "dif_ema": -8.19,
-    "calidad": "DÉBIL",
-    "upside": 4.9
-   },
-   "buffett": 60,
-   "mos": -76.9,
-   "rs_rank": 82,
-   "asof": "2026-10-28",
-   "price": 115.21,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 115.84,
-   "zones": {
-    "entry": 114.28,
-    "sl": 108.06,
-    "tp": 126.72,
-    "tp1": null,
-    "tp2": 126.72,
-    "atr": 3.1101
+    "tp2": 573.18,
+    "atr": 11.5544
    }
   }
  ],
  "watchlist": [
   {
    "ticker": "RELY",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "KRT",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -191,11 +125,19 @@
    ]
   },
   {
-   "ticker": "CRM",
+   "ticker": "ROST",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
     "Calidad"
+   ]
+  },
+  {
+   "ticker": "FMX",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Consumer Defensive"
    ]
   },
   {
@@ -207,178 +149,162 @@
    ]
   },
   {
-   "ticker": "NDSN",
+   "ticker": "DG",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: tope de 2 posiciones en Industrials"
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "SPOT",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "KOF",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: ya tiene una alerta abierta"
+   ]
+  },
+  {
+   "ticker": "ELV",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BRO",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "TYL",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CAKE",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "PSO",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "DIS",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "MCK",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "EPC",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "RECS",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "SCHM",
+   "setup": "RUPTURA",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "SM",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: earnings en 5d"
+   ]
+  },
+  {
+   "ticker": "MNST",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: ya tiene una alerta abierta"
    ]
   },
   {
    "ticker": "KO",
-   "setup": "RETROCESO",
+   "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "AIG",
-   "setup": "RETROCESO",
+   "ticker": "BP",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: earnings en 1d"
+   ]
+  },
+  {
+   "ticker": "OXY",
+   "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "SSO",
-   "setup": "RETROCESO",
+   "ticker": "IEX",
+   "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: ETF apalancado o inverso"
-   ]
-  },
-  {
-   "ticker": "SPYI",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "SPY",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "VOO",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "IVV",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "SCHX",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "GPIX",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "ESGU",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "SPYM",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "ESGV",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "LRGF",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "QDPL",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "DFUS",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "GSLC",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "SCHK",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "VTI",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "RWL",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "DIVO",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
+    "Riesgo: tope de 2 posiciones en Industrials"
    ]
   }
  ],
  "universo": {
   "snapshot": 1131,
-  "listado_candidatos": 5,
-  "listado_setups": 121,
+  "listado_candidatos": 0,
+  "listado_setups": 26,
   "listado_cobertura_pct": 100.0
  }
 }
