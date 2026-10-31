@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-10-29 19:31:51 (Hora Colombia)",
+ "checked_at": "2026-10-30 19:46:51 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 769.36,
-  "spy_sma200": 725.63,
-  "spy_vs_sma200_pct": 6.03,
-  "drawdown_52w_pct": -1.25,
-  "realized_vol_20d": 10.1
+  "spy_price": 755.72,
+  "spy_sma200": 725.98,
+  "spy_vs_sma200_pct": 4.1,
+  "drawdown_52w_pct": -3.0,
+  "realized_vol_20d": 11.6
  },
- "confirmed": 1,
- "session_ref": "2026-10-29",
+ "confirmed": 0,
+ "session_ref": "2026-10-30",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -23,85 +23,18 @@
    "IMPULSO"
   ]
  },
- "signals": [
-  {
-   "ticker": "MSFT",
-   "name": "Microsoft Corporation",
-   "sector": "Technology",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
-   "composite": 85,
-   "prob": 34.2,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-09-01 → 2026-10-29)",
-    "n": 7563,
-    "p_tp": 34.2,
-    "p_tp_ic95": [
-     33.2,
-     35.3
-    ],
-    "acierto": 38.5,
-    "ret_medio": 0.398,
-    "ret_medio_oos": 0.937,
-    "dias_medios": 15.0,
-    "le_gana_al_azar": false,
-    "en_vivo": {
-     "n": 3,
-     "acierto": 0.0,
-     "p_tp": 0.0,
-     "expectativa_pct": -5.75
-    }
-   },
-   "sizing": {
-    "stop_pct": 4.39,
-    "objetivo_pct": 8.77,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 22.8,
-    "acciones_por_10k": 4
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 90,
-    "earliness_lab": "TEMPRANO",
-    "not_temprano": false,
-    "fase": "Señal máxima",
-    "markov": 3,
-    "markov_lab": "STRONG",
-    "dif_ema": -21.58,
-    "calidad": "EXCELENTE",
-    "upside": 11.9
-   },
-   "buffett": 85,
-   "mos": -70.8,
-   "rs_rank": 90,
-   "asof": "2026-10-29",
-   "price": 530.43,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 532.74,
-   "zones": {
-    "entry": 526.96,
-    "sl": 503.85,
-    "tp": 573.18,
-    "tp1": null,
-    "tp2": 573.18,
-    "atr": 11.5544
-   }
-  }
- ],
+ "signals": [],
  "watchlist": [
   {
-   "ticker": "RELY",
+   "ticker": "CTSH",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Technology"
+   ]
+  },
+  {
+   "ticker": "UL",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -109,71 +42,7 @@
    ]
   },
   {
-   "ticker": "KRT",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "SEZL",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: ya tiene una alerta abierta"
-   ]
-  },
-  {
-   "ticker": "ROST",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "FMX",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Consumer Defensive"
-   ]
-  },
-  {
-   "ticker": "PGNY",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: ya tiene una alerta abierta"
-   ]
-  },
-  {
-   "ticker": "DG",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "SPOT",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "KOF",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: ya tiene una alerta abierta"
-   ]
-  },
-  {
-   "ticker": "ELV",
+   "ticker": "PSX",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -189,79 +58,39 @@
    ]
   },
   {
-   "ticker": "TYL",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "CAKE",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "PSO",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "DIS",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "MCK",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "EPC",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "RECS",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "SCHM",
-   "setup": "RUPTURA",
+   "ticker": "FHI",
+   "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
     "Tendencia"
    ]
   },
   {
-   "ticker": "SM",
+   "ticker": "SEZL",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: earnings en 5d"
+    "Riesgo: earnings en 5d, ya tiene una alerta abierta"
    ]
   },
   {
-   "ticker": "MNST",
+   "ticker": "EXPD",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: earnings en 4d, ya tiene una alerta abierta"
+   ]
+  },
+  {
+   "ticker": "TXN",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Technology"
+   ]
+  },
+  {
+   "ticker": "DVN",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
@@ -269,11 +98,11 @@
    ]
   },
   {
-   "ticker": "KO",
+   "ticker": "BF-B",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
-    "Calidad"
+    "Riesgo: tope de 2 posiciones en Consumer Defensive"
    ]
   },
   {
@@ -281,7 +110,23 @@
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: earnings en 1d"
+    "Riesgo: earnings en 0d"
+   ]
+  },
+  {
+   "ticker": "TRI",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: earnings en 4d"
+   ]
+  },
+  {
+   "ticker": "CM",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
    ]
   },
   {
@@ -293,18 +138,98 @@
    ]
   },
   {
-   "ticker": "IEX",
+   "ticker": "TD",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: tope de 2 posiciones en Industrials"
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BNS",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "SBUX",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BLK",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CAKE",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "SJM",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "DFAT",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "XLF",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "DFAS",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "DFGR",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "SPSM",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
    ]
   }
  ],
  "universo": {
   "snapshot": 1131,
-  "listado_candidatos": 0,
-  "listado_setups": 26,
+  "listado_candidatos": 1,
+  "listado_setups": 15,
   "listado_cobertura_pct": 100.0
  }
 }
