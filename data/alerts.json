@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-02 22:05:44 (Hora Colombia)",
+ "checked_at": "2026-11-02 22:41:13 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
@@ -36,7 +36,7 @@
    "stats": {
     "calibrada": true,
     "fuente": "backtest del protocolo (2022-09-06 → 2026-11-02)",
-    "n": 7580,
+    "n": 7578,
     "p_tp": 34.2,
     "p_tp_ic95": [
      33.2,
@@ -44,7 +44,7 @@
     ],
     "acierto": 38.4,
     "ret_medio": 0.399,
-    "ret_medio_oos": 0.954,
+    "ret_medio_oos": 0.957,
     "dias_medios": 15.0,
     "le_gana_al_azar": false,
     "en_vivo": {
