@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-11-04 20:26:02 (Hora Colombia)",
+ "checked_at": "2026-11-05 20:32:03 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 766.81,
-  "spy_sma200": 727.12,
-  "spy_vs_sma200_pct": 5.46,
-  "drawdown_52w_pct": -1.58,
-  "realized_vol_20d": 12.8
+  "spy_price": 733.0,
+  "spy_sma200": 727.39,
+  "spy_vs_sma200_pct": 0.77,
+  "drawdown_52w_pct": -5.92,
+  "realized_vol_20d": 20.1
  },
- "confirmed": 0,
- "session_ref": "2026-11-04",
+ "confirmed": 4,
+ "session_ref": "2026-11-05",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -23,213 +23,462 @@
    "IMPULSO"
   ]
  },
- "signals": [],
+ "signals": [
+  {
+   "ticker": "IBTH",
+   "name": "iShares iBonds Dec 202",
+   "sector": "ETF",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 0,
+   "prob": 33.7,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-09-09 → 2026-11-05)",
+    "n": 10456,
+    "p_tp": 33.7,
+    "p_tp_ic95": [
+     32.8,
+     34.6
+    ],
+    "acierto": 38.4,
+    "ret_medio": 0.327,
+    "ret_medio_oos": 0.488,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 18,
+     "acierto": 16.7,
+     "p_tp": 16.7,
+     "expectativa_pct": -1.16
+    }
+   },
+   "sizing": {
+    "stop_pct": 0.13,
+    "objetivo_pct": 0.36,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 100.0,
+    "acciones_por_10k": 3333
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 95,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Acumulación",
+    "markov": 2,
+    "markov_lab": "BULLISH",
+    "dif_ema": -0.7,
+    "calidad": null,
+    "upside": 0.3
+   },
+   "buffett": 0,
+   "mos": null,
+   "rs_rank": 71,
+   "asof": "2026-11-05",
+   "price": 22.31,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 22.31,
+   "zones": {
+    "entry": 22.3,
+    "sl": 22.27,
+    "tp": 22.38,
+    "tp1": null,
+    "tp2": 22.38,
+    "atr": 0.0194
+   }
+  },
+  {
+   "ticker": "VEEV",
+   "name": "Veeva Systems Inc.",
+   "sector": "Healthcare",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
+   "composite": 61,
+   "prob": 34.2,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-09-09 → 2026-11-05)",
+    "n": 7627,
+    "p_tp": 34.2,
+    "p_tp_ic95": [
+     33.1,
+     35.3
+    ],
+    "acierto": 38.4,
+    "ret_medio": 0.39,
+    "ret_medio_oos": 0.966,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 9,
+     "acierto": 22.2,
+     "p_tp": 22.2,
+     "expectativa_pct": 1.32
+    }
+   },
+   "sizing": {
+    "stop_pct": 6.01,
+    "objetivo_pct": 12.01,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 16.6,
+    "acciones_por_10k": 5
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 50,
+    "earliness_lab": "MADURO",
+    "not_temprano": true,
+    "fase": "Señal activa",
+    "markov": 3,
+    "markov_lab": "STRONG",
+    "dif_ema": -47.25,
+    "calidad": "REGULAR",
+    "upside": 10.9
+   },
+   "buffett": 70,
+   "mos": -74.4,
+   "rs_rank": 100,
+   "asof": "2026-11-05",
+   "price": 310.08,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 311.93,
+   "zones": {
+    "entry": 307.31,
+    "sl": 288.85,
+    "tp": 344.23,
+    "tp1": null,
+    "tp2": 344.23,
+    "atr": 9.23
+   }
+  },
+  {
+   "ticker": "ROKU",
+   "name": "Roku, Inc.",
+   "sector": "Communication Services",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
+   "composite": 71,
+   "prob": 34.2,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-09-09 → 2026-11-05)",
+    "n": 7627,
+    "p_tp": 34.2,
+    "p_tp_ic95": [
+     33.1,
+     35.3
+    ],
+    "acierto": 38.4,
+    "ret_medio": 0.39,
+    "ret_medio_oos": 0.966,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 9,
+     "acierto": 22.2,
+     "p_tp": 22.2,
+     "expectativa_pct": 1.32
+    }
+   },
+   "sizing": {
+    "stop_pct": 3.19,
+    "objetivo_pct": 6.39,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 31.3,
+    "acciones_por_10k": 19
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 90,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Señal activa",
+    "markov": 3,
+    "markov_lab": "STRONG",
+    "dif_ema": -21.99,
+    "calidad": "REGULAR",
+    "upside": 6.7
+   },
+   "buffett": 55,
+   "mos": -75.1,
+   "rs_rank": 82,
+   "asof": "2026-11-05",
+   "price": 160.43,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 160.94,
+   "zones": {
+    "entry": 159.66,
+    "sl": 154.56,
+    "tp": 169.87,
+    "tp1": null,
+    "tp2": 169.87,
+    "atr": 2.5522
+   }
+  },
+  {
+   "ticker": "DVY",
+   "name": "iShares Select Dividen",
+   "sector": "ETF",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
+   "composite": 25,
+   "prob": 34.2,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-09-09 → 2026-11-05)",
+    "n": 7627,
+    "p_tp": 34.2,
+    "p_tp_ic95": [
+     33.1,
+     35.3
+    ],
+    "acierto": 38.4,
+    "ret_medio": 0.39,
+    "ret_medio_oos": 0.966,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 9,
+     "acierto": 22.2,
+     "p_tp": 22.2,
+     "expectativa_pct": 1.32
+    }
+   },
+   "sizing": {
+    "stop_pct": 2.45,
+    "objetivo_pct": 4.91,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 40.8,
+    "acciones_por_10k": 25
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 95,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Señal máxima",
+    "markov": 3,
+    "markov_lab": "STRONG",
+    "dif_ema": -3.37,
+    "calidad": "EXCELENTE",
+    "upside": 12.1
+   },
+   "buffett": 5,
+   "mos": null,
+   "rs_rank": 72,
+   "asof": "2026-11-05",
+   "price": 161.16,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 161.55,
+   "zones": {
+    "entry": 160.57,
+    "sl": 156.63,
+    "tp": 168.45,
+    "tp1": null,
+    "tp2": 168.45,
+    "atr": 1.9692
+   }
+  }
+ ],
  "watchlist": [
   {
-   "ticker": "CTSH",
-   "setup": "RETROCESO",
+   "ticker": "MNST",
+   "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: tope de 2 posiciones en Technology"
+    "Riesgo: earnings en 0d"
    ]
   },
   {
-   "ticker": "PBYI",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: earnings en 1d, liquidez 3.6 M USD/día < 5"
-   ]
-  },
-  {
-   "ticker": "UNH",
-   "setup": "RETROCESO",
+   "ticker": "FFBC",
+   "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "QLYS",
-   "setup": "RETROCESO",
+   "ticker": "TD",
+   "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: earnings en 5d"
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "IIPR",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "HQY",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "MET",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "PRU",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "ALRS",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
    ]
   },
   {
    "ticker": "TRI",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Industrials"
-   ]
-  },
-  {
-   "ticker": "VEEV",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Healthcare"
-   ]
-  },
-  {
-   "ticker": "JPEF",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: liquidez 4.9 M USD/día < 5"
-   ]
-  },
-  {
-   "ticker": "BALT",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "BUFF",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "SPYI",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "SFLR",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "NSP",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "CGSD",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "SIXP",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "OCTW",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "SCHO",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "IBTI",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "VGSH",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "DFAI",
-   "setup": "RUPTURA",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "EFG",
-   "setup": "RUPTURA",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "SMMD",
-   "setup": "RUPTURA",
-   "origen": "Universo principal",
-   "failed": [
-    "Tendencia"
-   ]
-  },
-  {
-   "ticker": "EPC",
-   "setup": "RUPTURA",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "SCHM",
-   "setup": "RUPTURA",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "DIVO",
-   "setup": "RUPTURA",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "SEZL",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: earnings en 0d, ya tiene una alerta abierta"
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "GILD",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "SJM",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "EWG",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Tendencia"
+   ]
+  },
+  {
+   "ticker": "FEGE",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "VONV",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "IWD",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "XLB",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "PFE",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "FXH",
+   "setup": "IMPULSO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CPF",
+   "setup": "IMPULSO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
    ]
   }
  ],
  "universo": {
   "snapshot": 1131,
-  "listado_candidatos": 3,
-  "listado_setups": 103,
+  "listado_candidatos": 2,
+  "listado_setups": 12,
   "listado_cobertura_pct": 100.0
  }
 }
