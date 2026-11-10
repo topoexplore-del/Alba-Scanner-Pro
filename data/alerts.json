@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-11-06 19:47:24 (Hora Colombia)",
+ "checked_at": "2026-11-09 22:21:45 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 735.29,
-  "spy_sma200": 727.65,
-  "spy_vs_sma200_pct": 1.05,
-  "drawdown_52w_pct": -5.62,
-  "realized_vol_20d": 19.9
+  "spy_price": 752.69,
+  "spy_sma200": 727.99,
+  "spy_vs_sma200_pct": 3.39,
+  "drawdown_52w_pct": -3.39,
+  "realized_vol_20d": 22.0
  },
- "confirmed": 1,
- "session_ref": "2026-11-06",
+ "confirmed": 2,
+ "session_ref": "2026-11-09",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -25,41 +25,41 @@
  },
  "signals": [
   {
-   "ticker": "EL",
-   "name": "Estee Lauder Companies",
-   "sector": "Consumer Defensive",
-   "setup": "IMPULSO",
+   "ticker": "NDSN",
+   "name": "Nordson Corporation",
+   "sector": "Industrials",
+   "setup": "RETROCESO",
    "origen": "Universo principal",
-   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
-   "composite": 56,
-   "prob": 34.2,
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 70,
+   "prob": 33.7,
    "stats": {
     "calibrada": true,
-    "fuente": "backtest del protocolo (2022-09-09 → 2026-11-06)",
-    "n": 7633,
-    "p_tp": 34.2,
+    "fuente": "backtest del protocolo (2022-09-13 → 2026-11-09)",
+    "n": 10452,
+    "p_tp": 33.7,
     "p_tp_ic95": [
-     33.1,
-     35.2
+     32.8,
+     34.6
     ],
     "acierto": 38.4,
-    "ret_medio": 0.389,
-    "ret_medio_oos": 0.965,
+    "ret_medio": 0.327,
+    "ret_medio_oos": 0.482,
     "dias_medios": 15.0,
     "le_gana_al_azar": false,
     "en_vivo": {
-     "n": 10,
-     "acierto": 20.0,
-     "p_tp": 20.0,
-     "expectativa_pct": 0.77
+     "n": 18,
+     "acierto": 16.7,
+     "p_tp": 16.7,
+     "expectativa_pct": -1.16
     }
    },
    "sizing": {
-    "stop_pct": 8.33,
-    "objetivo_pct": 16.66,
+    "stop_pct": 5.74,
+    "objetivo_pct": 11.47,
     "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 12.0,
-    "acciones_por_10k": 11
+    "posicion_pct_capital": 17.4,
+    "acciones_por_10k": 5
    },
    "reglas": {
     "bracket": "ALBA 2/4",
@@ -67,41 +67,115 @@
     "expiry": 45
    },
    "fg": {
-    "earliness": 50,
-    "earliness_lab": "MADURO",
-    "not_temprano": true,
-    "fase": "Señal activa",
-    "markov": 3,
-    "markov_lab": "STRONG",
-    "dif_ema": -17.66,
-    "calidad": "DÉBIL",
-    "upside": 14.4
+    "earliness": 90,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Espera",
+    "markov": 1,
+    "markov_lab": "NEUTRAL",
+    "dif_ema": -9.81,
+    "calidad": "REGULAR",
+    "upside": 8.5
    },
-   "buffett": 35,
-   "mos": -85.6,
-   "rs_rank": 99,
-   "asof": "2026-11-06",
-   "price": 110.06,
+   "buffett": 85,
+   "mos": -63.9,
+   "rs_rank": 80,
+   "asof": "2026-11-09",
+   "price": 323.84,
    "live": null,
    "status": {
     "icon": "❔",
     "label": "SIN COTIZACIÓN",
     "note": "no se pudo validar el precio actual — verifica antes de operar"
    },
-   "max_chase": 110.96,
+   "max_chase": 325.68,
    "zones": {
-    "entry": 108.7,
-    "sl": 99.65,
-    "tp": 126.81,
+    "entry": 321.08,
+    "sl": 302.66,
+    "tp": 357.91,
     "tp1": null,
-    "tp2": 126.81,
-    "atr": 4.5262
+    "tp2": 357.91,
+    "atr": 9.2075
+   }
+  },
+  {
+   "ticker": "IEX",
+   "name": "IDEX Corporation",
+   "sector": "Industrials",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 60,
+   "prob": 33.7,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-09-13 → 2026-11-09)",
+    "n": 10452,
+    "p_tp": 33.7,
+    "p_tp_ic95": [
+     32.8,
+     34.6
+    ],
+    "acierto": 38.4,
+    "ret_medio": 0.327,
+    "ret_medio_oos": 0.482,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 18,
+     "acierto": 16.7,
+     "p_tp": 16.7,
+     "expectativa_pct": -1.16
+    }
+   },
+   "sizing": {
+    "stop_pct": 5.91,
+    "objetivo_pct": 11.82,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 16.9,
+    "acciones_por_10k": 7
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 95,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Espera",
+    "markov": 2,
+    "markov_lab": "BULLISH",
+    "dif_ema": -8.27,
+    "calidad": "REGULAR",
+    "upside": 8.8
+   },
+   "buffett": 70,
+   "mos": -60.2,
+   "rs_rank": 60,
+   "asof": "2026-11-09",
+   "price": 235.93,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 237.32,
+   "zones": {
+    "entry": 233.86,
+    "sl": 220.03,
+    "tp": 261.51,
+    "tp1": null,
+    "tp2": 261.51,
+    "atr": 6.9144
    }
   }
  ],
  "watchlist": [
   {
-   "ticker": "COLB",
+   "ticker": "URI",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -109,7 +183,71 @@
    ]
   },
   {
-   "ticker": "A",
+   "ticker": "TXN",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Technology"
+   ]
+  },
+  {
+   "ticker": "CSX",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "UNP",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CHE",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Healthcare"
+   ]
+  },
+  {
+   "ticker": "ZION",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "DG",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CAKE",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "RY",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "VEEV",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -117,7 +255,23 @@
    ]
   },
   {
-   "ticker": "FFBC",
+   "ticker": "LQDT",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: ya tiene una alerta abierta"
+   ]
+  },
+  {
+   "ticker": "KOF",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: ya tiene una alerta abierta"
+   ]
+  },
+  {
+   "ticker": "TD",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -125,7 +279,7 @@
    ]
   },
   {
-   "ticker": "TMO",
+   "ticker": "JXN",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -133,7 +287,7 @@
    ]
   },
   {
-   "ticker": "CRL",
+   "ticker": "SNPS",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -141,7 +295,7 @@
    ]
   },
   {
-   "ticker": "JOYY",
+   "ticker": "SCL",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -149,7 +303,7 @@
    ]
   },
   {
-   "ticker": "WAT",
+   "ticker": "MRK",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -157,7 +311,39 @@
    ]
   },
   {
-   "ticker": "BIIB",
+   "ticker": "DVY",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: ya tiene una alerta abierta"
+   ]
+  },
+  {
+   "ticker": "DFAT",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "DFSV",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "AVUV",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "RDWR",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -165,146 +351,34 @@
    ]
   },
   {
-   "ticker": "NAVN",
+   "ticker": "HDV",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Calidad"
+    "Riesgo: tope de 2 posiciones en ETF"
    ]
   },
   {
-   "ticker": "MRVI",
+   "ticker": "FNDX",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Calidad"
+    "Riesgo: tope de 2 posiciones en ETF"
    ]
   },
   {
-   "ticker": "DHR",
+   "ticker": "DFLV",
    "setup": "RETROCESO",
-   "origen": "Listado",
+   "origen": "Universo principal",
    "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "IBB",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "WST",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "VRNS",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "MEDP",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "PKG",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "CDNA",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "LECO",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "VLY",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "RHP",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "TS",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "BLLN",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "PEB",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "AUB",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "BHVN",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
+    "Riesgo: tope de 2 posiciones en ETF"
    ]
   }
  ],
  "universo": {
-  "snapshot": 1131,
-  "listado_candidatos": 68,
-  "listado_setups": 182,
+  "snapshot": 1130,
+  "listado_candidatos": 141,
+  "listado_setups": 454,
   "listado_cobertura_pct": 100.0
  }
 }
