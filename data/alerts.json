@@ -1,10 +1,10 @@
 {
- "checked_at": "2026-11-10 20:18:49 (Hora Colombia)",
+ "checked_at": "2026-11-10 20:47:20 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 749.92,
+  "spy_price": 749.94,
   "spy_sma200": 728.3,
   "spy_vs_sma200_pct": 2.97,
   "drawdown_52w_pct": -3.74,
@@ -186,7 +186,7 @@
    ]
   },
   {
-   "ticker": "PSC",
+   "ticker": "PAYX",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -194,7 +194,7 @@
    ]
   },
   {
-   "ticker": "PWV",
+   "ticker": "VRSN",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -202,7 +202,7 @@
    ]
   },
   {
-   "ticker": "VALQ",
+   "ticker": "UTHR",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -210,7 +210,7 @@
    ]
   },
   {
-   "ticker": "USVM",
+   "ticker": "FCNCA",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -218,7 +218,7 @@
    ]
   },
   {
-   "ticker": "IUS",
+   "ticker": "CACI",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -228,8 +228,8 @@
  ],
  "universo": {
   "snapshot": 1130,
-  "listado_candidatos": 5,
-  "listado_setups": 33,
+  "listado_candidatos": 40,
+  "listado_setups": 120,
   "listado_cobertura_pct": 100.0
  }
 }
