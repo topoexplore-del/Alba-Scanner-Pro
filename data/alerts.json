@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-11 21:26:34 (Hora Colombia)",
+ "checked_at": "2026-11-11 21:59:27 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
@@ -36,7 +36,7 @@
    "stats": {
     "calibrada": true,
     "fuente": "backtest del protocolo (2022-09-15 → 2026-11-11)",
-    "n": 10436,
+    "n": 10440,
     "p_tp": 33.7,
     "p_tp_ic95": [
      32.8,
@@ -44,7 +44,7 @@
     ],
     "acierto": 38.5,
     "ret_medio": 0.334,
-    "ret_medio_oos": 0.495,
+    "ret_medio_oos": 0.497,
     "dias_medios": 15.0,
     "le_gana_al_azar": false,
     "en_vivo": {
@@ -56,7 +56,7 @@
    },
    "sizing": {
     "stop_pct": 7.81,
-    "objetivo_pct": 15.62,
+    "objetivo_pct": 15.63,
     "riesgo_pct_capital": 1.0,
     "posicion_pct_capital": 12.8,
     "acciones_por_10k": 4
@@ -78,23 +78,23 @@
     "upside": 11.6
    },
    "buffett": 55,
-   "mos": -27.9,
-   "rs_rank": 44,
+   "mos": -27.8,
+   "rs_rank": 43,
    "asof": "2026-11-11",
-   "price": 261.5,
+   "price": 261.39,
    "live": null,
    "status": {
     "icon": "❔",
     "label": "SIN COTIZACIÓN",
     "note": "no se pudo validar el precio actual — verifica antes de operar"
    },
-   "max_chase": 263.52,
+   "max_chase": 263.41,
    "zones": {
-    "entry": 258.47,
-    "sl": 238.29,
-    "tp": 298.84,
+    "entry": 258.36,
+    "sl": 238.18,
+    "tp": 298.73,
     "tp1": null,
-    "tp2": 298.84,
+    "tp2": 298.73,
     "atr": 10.091
    }
   }
@@ -303,8 +303,8 @@
  ],
  "universo": {
   "snapshot": 1130,
-  "listado_candidatos": 5,
-  "listado_setups": 75,
+  "listado_candidatos": 93,
+  "listado_setups": 308,
   "listado_cobertura_pct": 100.0
  }
 }
