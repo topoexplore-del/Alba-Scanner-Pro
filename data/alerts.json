@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-11-10 20:47:20 (Hora Colombia)",
+ "checked_at": "2026-11-11 21:26:34 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 749.94,
-  "spy_sma200": 728.3,
-  "spy_vs_sma200_pct": 2.97,
-  "drawdown_52w_pct": -3.74,
-  "realized_vol_20d": 22.0
+  "spy_price": 759.79,
+  "spy_sma200": 728.65,
+  "spy_vs_sma200_pct": 4.27,
+  "drawdown_52w_pct": -2.48,
+  "realized_vol_20d": 22.4
  },
- "confirmed": 0,
- "session_ref": "2026-11-10",
+ "confirmed": 1,
+ "session_ref": "2026-11-11",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -23,26 +23,93 @@
    "IMPULSO"
   ]
  },
- "signals": [],
+ "signals": [
+  {
+   "ticker": "NUE",
+   "name": "Nucor Corporation",
+   "sector": "Basic Materials",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 81,
+   "prob": 33.7,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-09-15 → 2026-11-11)",
+    "n": 10436,
+    "p_tp": 33.7,
+    "p_tp_ic95": [
+     32.8,
+     34.6
+    ],
+    "acierto": 38.5,
+    "ret_medio": 0.334,
+    "ret_medio_oos": 0.495,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 18,
+     "acierto": 16.7,
+     "p_tp": 16.7,
+     "expectativa_pct": -1.16
+    }
+   },
+   "sizing": {
+    "stop_pct": 7.81,
+    "objetivo_pct": 15.62,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 12.8,
+    "acciones_por_10k": 4
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 95,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Espera",
+    "markov": 1,
+    "markov_lab": "NEUTRAL",
+    "dif_ema": -15.66,
+    "calidad": "BUENO",
+    "upside": 11.6
+   },
+   "buffett": 55,
+   "mos": -27.9,
+   "rs_rank": 44,
+   "asof": "2026-11-11",
+   "price": 261.5,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 263.52,
+   "zones": {
+    "entry": 258.47,
+    "sl": 238.29,
+    "tp": 298.84,
+    "tp1": null,
+    "tp2": 298.84,
+    "atr": 10.091
+   }
+  }
+ ],
  "watchlist": [
   {
-   "ticker": "TXN",
+   "ticker": "EXPD",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: tope de 2 posiciones en Technology"
+    "Riesgo: tope de 2 posiciones en Industrials"
    ]
   },
   {
-   "ticker": "UNH",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "CSX",
+   "ticker": "ZION",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -50,15 +117,7 @@
    ]
   },
   {
-   "ticker": "LNG",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "UNP",
+   "ticker": "DG",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -74,11 +133,43 @@
    ]
   },
   {
-   "ticker": "IEX",
+   "ticker": "DOCU",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: ya tiene una alerta abierta"
+    "Riesgo: tope de 2 posiciones en Technology"
+   ]
+  },
+  {
+   "ticker": "PNC",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "RY",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CM",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "ADI",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Technology"
    ]
   },
   {
@@ -90,7 +181,7 @@
    ]
   },
   {
-   "ticker": "JXN",
+   "ticker": "TD",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -98,7 +189,31 @@
    ]
   },
   {
-   "ticker": "MO",
+   "ticker": "WFC",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "ETSY",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "HIW",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BNS",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -114,6 +229,30 @@
    ]
   },
   {
+   "ticker": "CUZ",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "MFC",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BMO",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
    "ticker": "PFE",
    "setup": "RETROCESO",
    "origen": "Universo principal",
@@ -122,7 +261,7 @@
    ]
   },
   {
-   "ticker": "RDWR",
+   "ticker": "TRNO",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -130,7 +269,7 @@
    ]
   },
   {
-   "ticker": "FNDX",
+   "ticker": "DFSV",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -138,7 +277,7 @@
    ]
   },
   {
-   "ticker": "DFLV",
+   "ticker": "AVUV",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -146,81 +285,17 @@
    ]
   },
   {
-   "ticker": "FMDE",
+   "ticker": "BIIB",
    "setup": "RETROCESO",
    "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "VTV",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "JEPI",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "MGV",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "VYM",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "PAYX",
-   "setup": "RETROCESO",
-   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "VRSN",
+   "ticker": "W",
    "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "UTHR",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "FCNCA",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "CACI",
-   "setup": "RETROCESO",
-   "origen": "Listado",
+   "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
@@ -228,8 +303,8 @@
  ],
  "universo": {
   "snapshot": 1130,
-  "listado_candidatos": 40,
-  "listado_setups": 120,
+  "listado_candidatos": 5,
+  "listado_setups": 75,
   "listado_cobertura_pct": 100.0
  }
 }
