@@ -1,16 +1,16 @@
 {
- "checked_at": "2026-11-13 20:27:02 (Hora Colombia)",
+ "checked_at": "2026-11-13 21:03:57 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 754.37,
-  "spy_sma200": 729.32,
-  "spy_vs_sma200_pct": 3.44,
-  "drawdown_52w_pct": -3.17,
+  "spy_price": 754.25,
+  "spy_sma200": 729.31,
+  "spy_vs_sma200_pct": 3.42,
+  "drawdown_52w_pct": -3.19,
   "realized_vol_20d": 22.1
  },
- "confirmed": 0,
+ "confirmed": 5,
  "session_ref": "2026-11-13",
  "reglas": {
   "bracket": "ALBA 2/4",
@@ -23,7 +23,358 @@
    "IMPULSO"
   ]
  },
- "signals": [],
+ "signals": [
+  {
+   "ticker": "RGLD",
+   "name": "Royal Gold, Inc.",
+   "sector": "Basic Materials",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 76,
+   "prob": 33.7,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-09-16 → 2026-11-13)",
+    "n": 10436,
+    "p_tp": 33.7,
+    "p_tp_ic95": [
+     32.8,
+     34.6
+    ],
+    "acierto": 38.5,
+    "ret_medio": 0.338,
+    "ret_medio_oos": 0.504,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 18,
+     "acierto": 16.7,
+     "p_tp": 16.7,
+     "expectativa_pct": -1.16
+    }
+   },
+   "sizing": {
+    "stop_pct": 7.69,
+    "objetivo_pct": 15.39,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 13.0,
+    "acciones_por_10k": 5
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": null,
+   "buffett": 95,
+   "mos": -44.7,
+   "rs_rank": 87,
+   "asof": "2026-11-13",
+   "price": 256.89,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 258.85,
+   "zones": {
+    "entry": 253.96,
+    "sl": 234.42,
+    "tp": 293.04,
+    "tp1": null,
+    "tp2": 293.04,
+    "atr": 9.7713
+   }
+  },
+  {
+   "ticker": "EOG",
+   "name": "EOG Resources, Inc.",
+   "sector": "Energy",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
+   "composite": 100,
+   "prob": 34.2,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-09-16 → 2026-11-13)",
+    "n": 7623,
+    "p_tp": 34.2,
+    "p_tp_ic95": [
+     33.2,
+     35.3
+    ],
+    "acierto": 38.4,
+    "ret_medio": 0.407,
+    "ret_medio_oos": 0.998,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 10,
+     "acierto": 20.0,
+     "p_tp": 20.0,
+     "expectativa_pct": 0.77
+    }
+   },
+   "sizing": {
+    "stop_pct": 5.55,
+    "objetivo_pct": 11.1,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 18.0,
+    "acciones_por_10k": 11
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 90,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Señal máxima",
+    "markov": 3,
+    "markov_lab": "STRONG",
+    "dif_ema": -13.81,
+    "calidad": "EXCELENTE",
+    "upside": 17.1
+   },
+   "buffett": 100,
+   "mos": -5.9,
+   "rs_rank": 87,
+   "asof": "2026-11-13",
+   "price": 158.32,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 159.19,
+   "zones": {
+    "entry": 157.01,
+    "sl": 148.3,
+    "tp": 174.44,
+    "tp1": null,
+    "tp2": 174.44,
+    "atr": 4.357
+   }
+  },
+  {
+   "ticker": "AR",
+   "name": "Antero Resources Corpo",
+   "sector": "Energy",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
+   "composite": 91,
+   "prob": 34.2,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-09-16 → 2026-11-13)",
+    "n": 7623,
+    "p_tp": 34.2,
+    "p_tp_ic95": [
+     33.2,
+     35.3
+    ],
+    "acierto": 38.4,
+    "ret_medio": 0.407,
+    "ret_medio_oos": 0.998,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 10,
+     "acierto": 20.0,
+     "p_tp": 20.0,
+     "expectativa_pct": 0.77
+    }
+   },
+   "sizing": {
+    "stop_pct": 7.25,
+    "objetivo_pct": 14.48,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 13.8,
+    "acciones_por_10k": 35
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 100,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Señal máxima",
+    "markov": 3,
+    "markov_lab": "STRONG",
+    "dif_ema": -5.88,
+    "calidad": "EXCELENTE",
+    "upside": 19.8
+   },
+   "buffett": 85,
+   "mos": 36.7,
+   "rs_rank": 84,
+   "asof": "2026-11-13",
+   "price": 38.74,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 39.01,
+   "zones": {
+    "entry": 38.32,
+    "sl": 35.54,
+    "tp": 43.87,
+    "tp1": null,
+    "tp2": 43.87,
+    "atr": 1.3879
+   }
+  },
+  {
+   "ticker": "CRVL",
+   "name": "CorVel Corp.",
+   "sector": "Financial Services",
+   "setup": "IMPULSO",
+   "origen": "Listado",
+   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
+   "composite": 79,
+   "prob": 34.2,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-09-16 → 2026-11-13)",
+    "n": 7623,
+    "p_tp": 34.2,
+    "p_tp_ic95": [
+     33.2,
+     35.3
+    ],
+    "acierto": 38.4,
+    "ret_medio": 0.407,
+    "ret_medio_oos": 0.998,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 10,
+     "acierto": 20.0,
+     "p_tp": 20.0,
+     "expectativa_pct": 0.77
+    }
+   },
+   "sizing": {
+    "stop_pct": 5.96,
+    "objetivo_pct": 11.93,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 16.8,
+    "acciones_por_10k": 19
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": null,
+   "buffett": 70,
+   "mos": -75.0,
+   "rs_rank": 98,
+   "asof": "2026-11-13",
+   "price": 85.69,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 86.2,
+   "zones": {
+    "entry": 84.93,
+    "sl": 79.87,
+    "tp": 95.06,
+    "tp1": null,
+    "tp2": 95.06,
+    "atr": 2.5325
+   }
+  },
+  {
+   "ticker": "FMX",
+   "name": "Fomento Economico Mexi",
+   "sector": "Consumer Defensive",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
+   "composite": 81,
+   "prob": 34.2,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-09-16 → 2026-11-13)",
+    "n": 7623,
+    "p_tp": 34.2,
+    "p_tp_ic95": [
+     33.2,
+     35.3
+    ],
+    "acierto": 38.4,
+    "ret_medio": 0.407,
+    "ret_medio_oos": 0.998,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 10,
+     "acierto": 20.0,
+     "p_tp": 20.0,
+     "expectativa_pct": 0.77
+    }
+   },
+   "sizing": {
+    "stop_pct": 4.68,
+    "objetivo_pct": 9.38,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 21.4,
+    "acciones_por_10k": 16
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 90,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Señal máxima",
+    "markov": 3,
+    "markov_lab": "STRONG",
+    "dif_ema": -10.13,
+    "calidad": "BUENO",
+    "upside": 15.7
+   },
+   "buffett": 35,
+   "mos": -16.3,
+   "rs_rank": 92,
+   "asof": "2026-11-13",
+   "price": 131.88,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 132.48,
+   "zones": {
+    "entry": 130.95,
+    "sl": 124.82,
+    "tp": 143.23,
+    "tp1": null,
+    "tp2": 143.23,
+    "atr": 3.0685
+   }
+  }
+ ],
  "watchlist": [
   {
    "ticker": "KMB",
@@ -34,9 +385,25 @@
    ]
   },
   {
-   "ticker": "UL",
+   "ticker": "TMP",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CCK",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "ALV",
+   "setup": "RETROCESO",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
@@ -58,9 +425,73 @@
    ]
   },
   {
+   "ticker": "INDB",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "FULT",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "PEBO",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "MSEX",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BLKB",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BCPC",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Basic Materials"
+   ]
+  },
+  {
    "ticker": "GDDY",
    "setup": "RETROCESO",
    "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "EBAY",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "FDUS",
+   "setup": "RETROCESO",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
@@ -77,6 +508,14 @@
    "ticker": "HIW",
    "setup": "RETROCESO",
    "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "SBCF",
+   "setup": "RETROCESO",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
@@ -106,6 +545,22 @@
    ]
   },
   {
+   "ticker": "OZK",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "GSBC",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
    "ticker": "AAT",
    "setup": "RETROCESO",
    "origen": "Universo principal",
@@ -120,116 +575,12 @@
    "failed": [
     "Calidad"
    ]
-  },
-  {
-   "ticker": "MRK",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "BXP",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "CNNE",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "MET",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "TRV",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "DGX",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Healthcare"
-   ]
-  },
-  {
-   "ticker": "WFC",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "ABBV",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "LTH",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "SJM",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "FEGE",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "CGDG",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "PWV",
-   "setup": "IMPULSO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
   }
  ],
  "universo": {
   "snapshot": 1130,
-  "listado_candidatos": 3,
-  "listado_setups": 26,
+  "listado_candidatos": 37,
+  "listado_setups": 108,
   "listado_cobertura_pct": 100.0
  }
 }
