@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-11-12 20:43:30 (Hora Colombia)",
+ "checked_at": "2026-11-13 20:27:02 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 757.2,
-  "spy_sma200": 728.99,
-  "spy_vs_sma200_pct": 3.87,
-  "drawdown_52w_pct": -2.81,
-  "realized_vol_20d": 22.4
+  "spy_price": 754.37,
+  "spy_sma200": 729.32,
+  "spy_vs_sma200_pct": 3.44,
+  "drawdown_52w_pct": -3.17,
+  "realized_vol_20d": 22.1
  },
  "confirmed": 0,
- "session_ref": "2026-11-12",
+ "session_ref": "2026-11-13",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -26,6 +26,14 @@
  "signals": [],
  "watchlist": [
   {
+   "ticker": "KMB",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
    "ticker": "UL",
    "setup": "RETROCESO",
    "origen": "Universo principal",
@@ -34,7 +42,95 @@
    ]
   },
   {
-   "ticker": "LYV",
+   "ticker": "TROW",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "PNFP",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "GDDY",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "ETSY",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "HIW",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "KDP",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "FA",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BRO",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "AAT",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "FIBK",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "MRK",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "BXP",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -58,7 +154,7 @@
    ]
   },
   {
-   "ticker": "PRI",
+   "ticker": "TRV",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
@@ -66,23 +162,15 @@
    ]
   },
   {
-   "ticker": "ROKU",
+   "ticker": "DGX",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: dato desactualizado, vela 2026-11-06 ≠ sesión 2026-11-12, ya tiene una alerta abierta"
+    "Riesgo: tope de 2 posiciones en Healthcare"
    ]
   },
   {
-   "ticker": "AIG",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "BLK",
+   "ticker": "WFC",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
@@ -98,7 +186,7 @@
    ]
   },
   {
-   "ticker": "MRK",
+   "ticker": "LTH",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
@@ -114,22 +202,6 @@
    ]
   },
   {
-   "ticker": "SWKS",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "SCHD",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
    "ticker": "FEGE",
    "setup": "IMPULSO",
    "origen": "Universo principal",
@@ -138,7 +210,7 @@
    ]
   },
   {
-   "ticker": "IJH",
+   "ticker": "CGDG",
    "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
@@ -146,18 +218,18 @@
    ]
   },
   {
-   "ticker": "EWL",
+   "ticker": "PWV",
    "setup": "IMPULSO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
+    "Calidad"
    ]
   }
  ],
  "universo": {
-  "snapshot": 1131,
-  "listado_candidatos": 0,
-  "listado_setups": 16,
+  "snapshot": 1130,
+  "listado_candidatos": 3,
+  "listado_setups": 26,
   "listado_cobertura_pct": 100.0
  }
 }
