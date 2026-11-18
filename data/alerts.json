@@ -1,10 +1,10 @@
 {
- "checked_at": "2026-11-17 22:00:39 (Hora Colombia)",
+ "checked_at": "2026-11-17 22:24:53 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 732.39,
+  "spy_price": 732.44,
   "spy_sma200": 729.79,
   "spy_vs_sma200_pct": 0.36,
   "drawdown_52w_pct": -5.99,
@@ -227,9 +227,9 @@
   }
  ],
  "universo": {
-  "snapshot": 1130,
+  "snapshot": 1131,
   "listado_candidatos": 34,
-  "listado_setups": 101,
+  "listado_setups": 100,
   "listado_cobertura_pct": 100.0
  }
 }
