@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-11-16 22:24:27 (Hora Colombia)",
+ "checked_at": "2026-11-17 22:00:39 (Hora Colombia)",
  "regime": {
   "regime": "BULL",
   "icon": "🟢",
   "advice": "Mercado alcista — señales LONG operan con criterios normales.",
-  "spy_price": 739.95,
-  "spy_sma200": 729.58,
-  "spy_vs_sma200_pct": 1.42,
-  "drawdown_52w_pct": -5.02,
-  "realized_vol_20d": 22.9
+  "spy_price": 732.39,
+  "spy_sma200": 729.79,
+  "spy_vs_sma200_pct": 0.36,
+  "drawdown_52w_pct": -5.99,
+  "realized_vol_20d": 23.1
  },
  "confirmed": 0,
- "session_ref": "2026-11-16",
+ "session_ref": "2026-11-17",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -26,31 +26,7 @@
  "signals": [],
  "watchlist": [
   {
-   "ticker": "RL",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "DG",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "HIW",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "DAL",
+   "ticker": "MET",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -66,7 +42,7 @@
    ]
   },
   {
-   "ticker": "SCL",
+   "ticker": "ADPT",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -74,7 +50,7 @@
    ]
   },
   {
-   "ticker": "VOYA",
+   "ticker": "BAX",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -82,23 +58,7 @@
    ]
   },
   {
-   "ticker": "BXP",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "NAVN",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "VRNS",
+   "ticker": "SHY",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -106,7 +66,7 @@
    ]
   },
   {
-   "ticker": "RHI",
+   "ticker": "ROIV",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -114,7 +74,7 @@
    ]
   },
   {
-   "ticker": "MTN",
+   "ticker": "TEVA",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -122,7 +82,7 @@
    ]
   },
   {
-   "ticker": "PK",
+   "ticker": "EXEL",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -130,7 +90,7 @@
    ]
   },
   {
-   "ticker": "KRC",
+   "ticker": "MEDP",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -138,7 +98,7 @@
    ]
   },
   {
-   "ticker": "PACS",
+   "ticker": "BRKR",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -146,7 +106,7 @@
    ]
   },
   {
-   "ticker": "BWIN",
+   "ticker": "SPTS",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -162,7 +122,7 @@
    ]
   },
   {
-   "ticker": "NWL",
+   "ticker": "BWIN",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -170,7 +130,7 @@
    ]
   },
   {
-   "ticker": "LLYVK",
+   "ticker": "GFF",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -178,7 +138,7 @@
    ]
   },
   {
-   "ticker": "WLTH",
+   "ticker": "SLDE",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -186,7 +146,7 @@
    ]
   },
   {
-   "ticker": "ZGN",
+   "ticker": "PLUS",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -194,7 +154,7 @@
    ]
   },
   {
-   "ticker": "LLYVA",
+   "ticker": "SVV",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -202,7 +162,7 @@
    ]
   },
   {
-   "ticker": "FCF",
+   "ticker": "HGTY",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -210,7 +170,7 @@
    ]
   },
   {
-   "ticker": "EVTC",
+   "ticker": "USTB",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -218,7 +178,47 @@
    ]
   },
   {
-   "ticker": "FTSL",
+   "ticker": "MLAB",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "WMK",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "RCEL",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "TBCH",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "LDUR",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "OABI",
    "setup": "RETROCESO",
    "origen": "Listado",
    "failed": [
@@ -227,9 +227,9 @@
   }
  ],
  "universo": {
-  "snapshot": 1131,
-  "listado_candidatos": 36,
-  "listado_setups": 122,
+  "snapshot": 1130,
+  "listado_candidatos": 34,
+  "listado_setups": 101,
   "listado_cobertura_pct": 100.0
  }
 }
