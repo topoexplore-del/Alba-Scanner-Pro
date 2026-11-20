@@ -1,13 +1,13 @@
 {
- "checked_at": "2026-11-19 21:23:14 (Hora Colombia)",
+ "checked_at": "2026-11-19 21:47:42 (Hora Colombia)",
  "regime": {
   "regime": "NEUTRAL",
   "icon": "🟡",
   "advice": "Mercado en transición — solo señales de máxima calidad (RS alto).",
-  "spy_price": 715.78,
+  "spy_price": 715.87,
   "spy_sma200": 730.2,
-  "spy_vs_sma200_pct": -1.97,
-  "drawdown_52w_pct": -8.13,
+  "spy_vs_sma200_pct": -1.96,
+  "drawdown_52w_pct": -8.11,
   "realized_vol_20d": 23.5
  },
  "confirmed": 2,
@@ -36,16 +36,16 @@
    "stats": {
     "calibrada": true,
     "fuente": "backtest del protocolo (2022-09-23 → 2026-11-19)",
-    "n": 10457,
+    "n": 10454,
     "p_tp": 33.7,
     "p_tp_ic95": [
      32.8,
      34.6
     ],
     "acierto": 38.4,
-    "ret_medio": 0.328,
+    "ret_medio": 0.329,
     "ret_medio_oos": 0.47,
-    "dias_medios": 15.0,
+    "dias_medios": 15.1,
     "le_gana_al_azar": false,
     "en_vivo": {
      "n": 20,
@@ -106,19 +106,19 @@
    "origen": "Universo principal",
    "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
    "composite": 79,
-   "prob": 34.1,
+   "prob": 34.0,
    "stats": {
     "calibrada": true,
     "fuente": "backtest del protocolo (2022-09-23 → 2026-11-19)",
-    "n": 7669,
-    "p_tp": 34.1,
+    "n": 7675,
+    "p_tp": 34.0,
     "p_tp_ic95": [
      33.0,
      35.1
     ],
     "acierto": 38.2,
-    "ret_medio": 0.38,
-    "ret_medio_oos": 0.951,
+    "ret_medio": 0.379,
+    "ret_medio_oos": 0.947,
     "dias_medios": 15.0,
     "le_gana_al_azar": false,
     "en_vivo": {
@@ -155,20 +155,20 @@
    "mos": -67.9,
    "rs_rank": 83,
    "asof": "2026-11-19",
-   "price": 551.32,
+   "price": 551.33,
    "live": null,
    "status": {
     "icon": "❔",
     "label": "SIN COTIZACIÓN",
     "note": "no se pudo validar el precio actual — verifica antes de operar"
    },
-   "max_chase": 554.08,
+   "max_chase": 554.09,
    "zones": {
-    "entry": 547.17,
-    "sl": 519.52,
-    "tp": 602.47,
+    "entry": 547.18,
+    "sl": 519.53,
+    "tp": 602.48,
     "tp1": null,
-    "tp2": 602.47,
+    "tp2": 602.48,
     "atr": 13.8245
    }
   }
@@ -178,6 +178,54 @@
    "ticker": "0941.HK",
    "setup": "RETROCESO",
    "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "SHY",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "EG",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "FTS",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "CPA",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "SPTS",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "CKX",
+   "setup": "RETROCESO",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
@@ -207,14 +255,6 @@
    ]
   },
   {
-   "ticker": "SPSB",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
    "ticker": "IBTI",
    "setup": "RETROCESO",
    "origen": "Universo principal",
@@ -229,12 +269,92 @@
    "failed": [
     "Riesgo: dato desactualizado, vela 2026-11-06 ≠ sesión 2026-11-19, ya tiene una alerta abierta"
    ]
+  },
+  {
+   "ticker": "TGT",
+   "setup": "IMPULSO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "DRI",
+   "setup": "IMPULSO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "GME",
+   "setup": "IMPULSO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "WRB",
+   "setup": "IMPULSO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CHH",
+   "setup": "IMPULSO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CVCO",
+   "setup": "IMPULSO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "TAK",
+   "setup": "IMPULSO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "IHG",
+   "setup": "IMPULSO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "GFF",
+   "setup": "IMPULSO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "SHO",
+   "setup": "IMPULSO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
   }
  ],
  "universo": {
   "snapshot": 1129,
-  "listado_candidatos": 1,
-  "listado_setups": 10,
+  "listado_candidatos": 18,
+  "listado_setups": 42,
   "listado_cobertura_pct": 100.0
  }
 }
