@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-11-19 21:47:42 (Hora Colombia)",
+ "checked_at": "2026-11-20 21:10:55 (Hora Colombia)",
  "regime": {
   "regime": "NEUTRAL",
   "icon": "🟡",
   "advice": "Mercado en transición — solo señales de máxima calidad (RS alto).",
-  "spy_price": 715.87,
-  "spy_sma200": 730.2,
-  "spy_vs_sma200_pct": -1.96,
-  "drawdown_52w_pct": -8.11,
-  "realized_vol_20d": 23.5
+  "spy_price": 690.91,
+  "spy_sma200": 730.29,
+  "spy_vs_sma200_pct": -5.39,
+  "drawdown_52w_pct": -11.32,
+  "realized_vol_20d": 26.0
  },
- "confirmed": 2,
- "session_ref": "2026-11-19",
+ "confirmed": 0,
+ "session_ref": "2026-11-20",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -23,159 +23,10 @@
    "IMPULSO"
   ]
  },
- "signals": [
-  {
-   "ticker": "VGSH",
-   "name": "Vanguard Short-Term Tr",
-   "sector": "ETF",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
-   "composite": 0,
-   "prob": 33.7,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-09-23 → 2026-11-19)",
-    "n": 10454,
-    "p_tp": 33.7,
-    "p_tp_ic95": [
-     32.8,
-     34.6
-    ],
-    "acierto": 38.4,
-    "ret_medio": 0.329,
-    "ret_medio_oos": 0.47,
-    "dias_medios": 15.1,
-    "le_gana_al_azar": false,
-    "en_vivo": {
-     "n": 20,
-     "acierto": 15.0,
-     "p_tp": 15.0,
-     "expectativa_pct": -2.31
-    }
-   },
-   "sizing": {
-    "stop_pct": 0.28,
-    "objetivo_pct": 0.59,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 100.0,
-    "acciones_por_10k": 624
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 100,
-    "earliness_lab": "TEMPRANO",
-    "not_temprano": false,
-    "fase": "Señal activa",
-    "markov": 3,
-    "markov_lab": "STRONG",
-    "dif_ema": -0.61,
-    "calidad": null,
-    "upside": 5.5
-   },
-   "buffett": 0,
-   "mos": null,
-   "rs_rank": 77,
-   "asof": "2026-11-19",
-   "price": 57.7,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 57.71,
-   "zones": {
-    "entry": 57.67,
-    "sl": 57.51,
-    "tp": 58.01,
-    "tp1": null,
-    "tp2": 58.01,
-    "atr": 0.0835
-   }
-  },
-  {
-   "ticker": "CHE",
-   "name": "Chemed Corp",
-   "sector": "Healthcare",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "setup_desc": "Momentum confirmado (réplica técnica del 4/4 de FigAnd) con filtro anti-extensión.",
-   "composite": 79,
-   "prob": 34.0,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-09-23 → 2026-11-19)",
-    "n": 7675,
-    "p_tp": 34.0,
-    "p_tp_ic95": [
-     33.0,
-     35.1
-    ],
-    "acierto": 38.2,
-    "ret_medio": 0.379,
-    "ret_medio_oos": 0.947,
-    "dias_medios": 15.0,
-    "le_gana_al_azar": false,
-    "en_vivo": {
-     "n": 13,
-     "acierto": 15.4,
-     "p_tp": 15.4,
-     "expectativa_pct": -0.12
-    }
-   },
-   "sizing": {
-    "stop_pct": 5.05,
-    "objetivo_pct": 10.11,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 19.8,
-    "acciones_por_10k": 3
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 75,
-    "earliness_lab": "TEMPRANO",
-    "not_temprano": false,
-    "fase": "Señal máxima",
-    "markov": 3,
-    "markov_lab": "STRONG",
-    "dif_ema": -15.03,
-    "calidad": "BUENO",
-    "upside": 12.9
-   },
-   "buffett": 55,
-   "mos": -67.9,
-   "rs_rank": 83,
-   "asof": "2026-11-19",
-   "price": 551.33,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 554.09,
-   "zones": {
-    "entry": 547.18,
-    "sl": 519.53,
-    "tp": 602.48,
-    "tp1": null,
-    "tp2": 602.48,
-    "atr": 13.8245
-   }
-  }
- ],
+ "signals": [],
  "watchlist": [
   {
-   "ticker": "0941.HK",
+   "ticker": "CL",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -183,63 +34,47 @@
    ]
   },
   {
-   "ticker": "SHY",
+   "ticker": "CHD",
    "setup": "RETROCESO",
-   "origen": "Listado",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Consumer Defensive"
+   ]
+  },
+  {
+   "ticker": "EPAM",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Technology"
+   ]
+  },
+  {
+   "ticker": "TYL",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "EG",
+   "ticker": "GPN",
    "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "FTS",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "CPA",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "SPTS",
-   "setup": "RETROCESO",
-   "origen": "Listado",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "CKX",
-   "setup": "RETROCESO",
-   "origen": "Listado",
+   "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "LDUR",
+   "ticker": "BIIB",
    "setup": "RETROCESO",
-   "origen": "Listado",
+   "origen": "Universo principal",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "BSCS",
+   "ticker": "JPIE",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -247,7 +82,15 @@
    ]
   },
   {
-   "ticker": "SCHO",
+   "ticker": "CALI",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "NEAR",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -255,106 +98,34 @@
    ]
   },
   {
-   "ticker": "IBTI",
-   "setup": "RETROCESO",
+   "ticker": "KO",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "CB",
+   "setup": "IMPULSO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "XLP",
+   "setup": "IMPULSO",
    "origen": "Universo principal",
    "failed": [
     "Riesgo: tope de 2 posiciones en ETF"
-   ]
-  },
-  {
-   "ticker": "ROKU",
-   "setup": "IMPULSO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: dato desactualizado, vela 2026-11-06 ≠ sesión 2026-11-19, ya tiene una alerta abierta"
-   ]
-  },
-  {
-   "ticker": "TGT",
-   "setup": "IMPULSO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "DRI",
-   "setup": "IMPULSO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "GME",
-   "setup": "IMPULSO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "WRB",
-   "setup": "IMPULSO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "CHH",
-   "setup": "IMPULSO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "CVCO",
-   "setup": "IMPULSO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "TAK",
-   "setup": "IMPULSO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "IHG",
-   "setup": "IMPULSO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "GFF",
-   "setup": "IMPULSO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "SHO",
-   "setup": "IMPULSO",
-   "origen": "Listado",
-   "failed": [
-    "Calidad"
    ]
   }
  ],
  "universo": {
   "snapshot": 1129,
-  "listado_candidatos": 18,
-  "listado_setups": 42,
+  "listado_candidatos": 1,
+  "listado_setups": 8,
   "listado_cobertura_pct": 100.0
  }
 }
