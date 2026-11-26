@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-11-24 16:51:37 (Hora Colombia)",
+ "checked_at": "2026-11-25 22:32:38 (Hora Colombia)",
  "regime": {
   "regime": "NEUTRAL",
   "icon": "🟡",
   "advice": "Mercado en transición — solo señales de máxima calidad (RS alto).",
-  "spy_price": 718.58,
-  "spy_sma200": 730.62,
-  "spy_vs_sma200_pct": -1.65,
-  "drawdown_52w_pct": -7.77,
-  "realized_vol_20d": 31.7
+  "spy_price": 716.7,
+  "spy_sma200": 730.77,
+  "spy_vs_sma200_pct": -1.93,
+  "drawdown_52w_pct": -8.01,
+  "realized_vol_20d": 31.6
  },
- "confirmed": 1,
- "session_ref": "2026-11-24",
+ "confirmed": 0,
+ "session_ref": "2026-11-25",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -23,101 +23,10 @@
    "IMPULSO"
   ]
  },
- "signals": [
-  {
-   "ticker": "BF-B",
-   "name": "Brown Forman Inc",
-   "sector": "Consumer Defensive",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
-   "composite": 69,
-   "prob": 33.6,
-   "stats": {
-    "calibrada": true,
-    "fuente": "backtest del protocolo (2022-09-28 → 2026-11-24)",
-    "n": 10470,
-    "p_tp": 33.6,
-    "p_tp_ic95": [
-     32.7,
-     34.5
-    ],
-    "acierto": 38.4,
-    "ret_medio": 0.324,
-    "ret_medio_oos": 0.485,
-    "dias_medios": 15.0,
-    "le_gana_al_azar": false,
-    "en_vivo": {
-     "n": 22,
-     "acierto": 13.6,
-     "p_tp": 13.6,
-     "expectativa_pct": -2.74
-    }
-   },
-   "sizing": {
-    "stop_pct": 6.42,
-    "objetivo_pct": 12.87,
-    "riesgo_pct_capital": 1.0,
-    "posicion_pct_capital": 15.6,
-    "acciones_por_10k": 52
-   },
-   "reglas": {
-    "bracket": "ALBA 2/4",
-    "fill_window": 5,
-    "expiry": 45
-   },
-   "fg": {
-    "earliness": 85,
-    "earliness_lab": "TEMPRANO",
-    "not_temprano": false,
-    "fase": "Acumulación",
-    "markov": 2,
-    "markov_lab": "BULLISH",
-    "dif_ema": -10.92,
-    "calidad": "REGULAR",
-    "upside": 9.6
-   },
-   "buffett": 95,
-   "mos": -41.9,
-   "rs_rank": 88,
-   "asof": "2026-11-24",
-   "price": 29.89,
-   "live": null,
-   "status": {
-    "icon": "❔",
-    "label": "SIN COTIZACIÓN",
-    "note": "no se pudo validar el precio actual — verifica antes de operar"
-   },
-   "max_chase": 30.08,
-   "zones": {
-    "entry": 29.6,
-    "sl": 27.7,
-    "tp": 33.41,
-    "tp1": null,
-    "tp2": 33.41,
-    "atr": 0.9516
-   }
-  }
- ],
+ "signals": [],
  "watchlist": [
   {
-   "ticker": "KMB",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "CPAY",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "KFRC",
+   "ticker": "QNST",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -133,19 +42,27 @@
    ]
   },
   {
-   "ticker": "SEZL",
+   "ticker": "WTS",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: tope de 2 posiciones en Financial Services"
+    "Riesgo: RS < 60 en régimen neutral, ya tiene una alerta abierta"
    ]
   },
   {
-   "ticker": "MDLZ",
+   "ticker": "CSX",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
     "Calidad"
+   ]
+  },
+  {
+   "ticker": "FMX",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en Consumer Defensive"
    ]
   },
   {
@@ -157,31 +74,7 @@
    ]
   },
   {
-   "ticker": "V",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "MA",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "ULTA",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "TRV",
+   "ticker": "MET",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -197,39 +90,7 @@
    ]
   },
   {
-   "ticker": "LAMR",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "LLY",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
    "ticker": "ITW",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "CL",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
-   "ticker": "UL",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -245,14 +106,6 @@
    ]
   },
   {
-   "ticker": "KO",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Calidad"
-   ]
-  },
-  {
    "ticker": "MANH",
    "setup": "RETROCESO",
    "origen": "Universo principal",
@@ -261,7 +114,7 @@
    ]
   },
   {
-   "ticker": "AIG",
+   "ticker": "R",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -269,15 +122,15 @@
    ]
   },
   {
-   "ticker": "SPGI",
+   "ticker": "CR",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
-    "Riesgo: tope de 2 posiciones en Financial Services"
+    "Riesgo: tope de 2 posiciones en Industrials"
    ]
   },
   {
-   "ticker": "SPOT",
+   "ticker": "PBA",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -299,12 +152,84 @@
    "failed": [
     "Calidad"
    ]
+  },
+  {
+   "ticker": "HLT",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "HIW",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "MO",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "SBUX",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "FA",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "PRU",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "WELL",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "HDEF",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
+  },
+  {
+   "ticker": "DVY",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "failed": [
+    "Riesgo: tope de 2 posiciones en ETF"
+   ]
   }
  ],
  "universo": {
-  "snapshot": 1129,
-  "listado_candidatos": 105,
-  "listado_setups": 291,
+  "snapshot": 1130,
+  "listado_candidatos": 111,
+  "listado_setups": 343,
   "listado_cobertura_pct": 100.0
  }
 }
