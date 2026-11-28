@@ -1,17 +1,17 @@
 {
- "checked_at": "2026-11-25 22:32:38 (Hora Colombia)",
+ "checked_at": "2026-11-27 22:16:00 (Hora Colombia)",
  "regime": {
   "regime": "NEUTRAL",
   "icon": "🟡",
   "advice": "Mercado en transición — solo señales de máxima calidad (RS alto).",
-  "spy_price": 716.7,
-  "spy_sma200": 730.77,
-  "spy_vs_sma200_pct": -1.93,
-  "drawdown_52w_pct": -8.01,
-  "realized_vol_20d": 31.6
+  "spy_price": 728.32,
+  "spy_sma200": 730.98,
+  "spy_vs_sma200_pct": -0.36,
+  "drawdown_52w_pct": -6.52,
+  "realized_vol_20d": 32.4
  },
- "confirmed": 0,
- "session_ref": "2026-11-25",
+ "confirmed": 1,
+ "session_ref": "2026-11-27",
  "reglas": {
   "bracket": "ALBA 2/4",
   "max_nuevas": 5,
@@ -23,7 +23,82 @@
    "IMPULSO"
   ]
  },
- "signals": [],
+ "signals": [
+  {
+   "ticker": "SRLN",
+   "name": "State Street Blackston",
+   "sector": "ETF",
+   "setup": "RETROCESO",
+   "origen": "Universo principal",
+   "setup_desc": "Tendencia alcista intacta; el precio volvió a la EMA20 en los últimos 3 días y hoy gira al alza (vela verde, RSI subiendo, RSI 40–60). Es la entrada más temprana.",
+   "composite": 0,
+   "prob": 33.6,
+   "stats": {
+    "calibrada": true,
+    "fuente": "backtest del protocolo (2022-09-29 → 2026-11-27)",
+    "n": 10480,
+    "p_tp": 33.6,
+    "p_tp_ic95": [
+     32.7,
+     34.5
+    ],
+    "acierto": 38.3,
+    "ret_medio": 0.313,
+    "ret_medio_oos": 0.515,
+    "dias_medios": 15.0,
+    "le_gana_al_azar": false,
+    "en_vivo": {
+     "n": 22,
+     "acierto": 13.6,
+     "p_tp": 13.6,
+     "expectativa_pct": -2.74
+    }
+   },
+   "sizing": {
+    "stop_pct": 0.75,
+    "objetivo_pct": 1.47,
+    "riesgo_pct_capital": 1.0,
+    "posicion_pct_capital": 100.0,
+    "acciones_por_10k": 333
+   },
+   "reglas": {
+    "bracket": "ALBA 2/4",
+    "fill_window": 5,
+    "expiry": 45
+   },
+   "fg": {
+    "earliness": 100,
+    "earliness_lab": "TEMPRANO",
+    "not_temprano": false,
+    "fase": "Acumulación",
+    "markov": 2,
+    "markov_lab": "BULLISH",
+    "dif_ema": -1.9,
+    "calidad": null,
+    "upside": 1.1
+   },
+   "buffett": 0,
+   "mos": null,
+   "rs_rank": 70,
+   "asof": "2026-11-27",
+   "price": 40.16,
+   "live": null,
+   "status": {
+    "icon": "❔",
+    "label": "SIN COTIZACIÓN",
+    "note": "no se pudo validar el precio actual — verifica antes de operar"
+   },
+   "max_chase": 40.19,
+   "zones": {
+    "entry": 40.12,
+    "sl": 39.82,
+    "tp": 40.71,
+    "tp1": null,
+    "tp2": 40.71,
+    "atr": 0.1474
+   }
+  }
+ ],
  "watchlist": [
   {
    "ticker": "QNST",
@@ -34,23 +109,7 @@
    ]
   },
   {
-   "ticker": "TOST",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: RS < 60 en régimen neutral"
-   ]
-  },
-  {
-   "ticker": "WTS",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: RS < 60 en régimen neutral, ya tiene una alerta abierta"
-   ]
-  },
-  {
-   "ticker": "CSX",
+   "ticker": "CAKE",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -58,15 +117,7 @@
    ]
   },
   {
-   "ticker": "FMX",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Consumer Defensive"
-   ]
-  },
-  {
-   "ticker": "AAPL",
+   "ticker": "WAT",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -74,7 +125,7 @@
    ]
   },
   {
-   "ticker": "MET",
+   "ticker": "PDM",
    "setup": "RETROCESO",
    "origen": "Universo principal",
    "failed": [
@@ -82,154 +133,178 @@
    ]
   },
   {
-   "ticker": "PRI",
+   "ticker": "DHR",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "ITW",
+   "ticker": "BKLN",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "KOF",
+   "ticker": "SLS",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: ya tiene una alerta abierta"
-   ]
-  },
-  {
-   "ticker": "MANH",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "R",
+   "ticker": "SYNA",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "CR",
+   "ticker": "H",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
-   "failed": [
-    "Riesgo: tope de 2 posiciones en Industrials"
-   ]
-  },
-  {
-   "ticker": "PBA",
-   "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "CME",
+   "ticker": "XMTR",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "FTV",
+   "ticker": "HAE",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "HLT",
+   "ticker": "TS",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "HIW",
+   "ticker": "HHH",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "MO",
+   "ticker": "CSHI",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "SBUX",
+   "ticker": "PEB",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "FA",
+   "ticker": "EXTR",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "PRU",
+   "ticker": "SBH",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "WELL",
+   "ticker": "RLJ",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
     "Calidad"
    ]
   },
   {
-   "ticker": "HDEF",
+   "ticker": "EVER",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
+    "Calidad"
    ]
   },
   {
-   "ticker": "DVY",
+   "ticker": "DFIN",
    "setup": "RETROCESO",
-   "origen": "Universo principal",
+   "origen": "Listado",
    "failed": [
-    "Riesgo: tope de 2 posiciones en ETF"
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "FTSL",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "RNW",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "RCEL",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "FLGT",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
+   ]
+  },
+  {
+   "ticker": "RISR",
+   "setup": "RETROCESO",
+   "origen": "Listado",
+   "failed": [
+    "Calidad"
    ]
   }
  ],
  "universo": {
   "snapshot": 1130,
-  "listado_candidatos": 111,
-  "listado_setups": 343,
+  "listado_candidatos": 28,
+  "listado_setups": 84,
   "listado_cobertura_pct": 100.0
  }
 }
